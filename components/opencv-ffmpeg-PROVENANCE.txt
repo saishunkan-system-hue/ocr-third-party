@@ -1,0 +1,112 @@
+Corresponding source for the GPL binaries inside opencv-contrib-python
+================================================================================
+
+Why these three archives are here
+--------------------------------------------------------------------------------
+
+opencv-contrib-python 4.10.0.84 declares Apache-2.0, which is accurate for
+OpenCV itself. The wheel also ships 75 prebuilt native libraries in
+cv2/.dylibs/, and three of those components are licensed GPL-2.0-or-later:
+FFmpeg (built with --enable-gpl), x264 and x265.
+
+We redistribute those binaries — they are inside the delivered numericEngine
+executable and inside the Python environment on the delivered machine — so GPL
+section 3 obliges us to make the corresponding source available to the
+recipient. That obligation is discharged under section 3(b), by the written
+offer in section 3.0 of compliance/THIRD-PARTY-NOTICES.txt. The archives named
+below are the source that offer provides; this file is the record of how each
+was identified from the binary, and it is delivered with the product so the
+identification can be checked without relying on the server the archives came
+from.
+
+The wheel's own cv2/LICENSE-3RD-PARTY.txt does not name x264 or x265 and
+contains no GPL text, so it cannot be relied on as the notice for these three.
+See section 5.6 of compliance/THIRD-PARTY-NOTICES.txt.
+
+
+How the versions were identified
+--------------------------------------------------------------------------------
+
+Not from an index lookup or from the wheel metadata, neither of which records
+them. They were read out of the delivered binaries themselves, in
+numericEngine/venv/lib/python3.11/site-packages/cv2/.dylibs/ :
+
+  FFmpeg   the build-configuration string embedded in
+           libavcodec.61.3.100.dylib begins
+
+               --prefix=/usr/local/Cellar/ffmpeg/7.0.1 ... --enable-gpl
+               --enable-version3 --enable-libx264 --enable-libx265
+               --enable-libxvid --enable-frei0r --enable-libvidstab
+               --enable-librubberband ...
+
+           so the version is 7.0.1 and the build is the GPL one. FFmpeg is
+           LGPL-2.1-or-later by default; --enable-gpl makes the result
+           GPL-2.0-or-later, and --enable-version3 makes parts
+           GPL-3.0-or-later. FFmpeg refuses to build with --enable-gpl unless
+           a GPL-only component is requested, and six were.
+
+  x264     libx264.164.dylib reports "r3108 31e19f9".
+           r3108 is the revision, 31e19f9 the git commit.
+
+  x265     libx265.209.dylib reports "3.5+1-f0c1022b6", meaning one commit
+           past tag 3.5, at commit f0c1022b6.
+
+
+The archives
+--------------------------------------------------------------------------------
+
+  ffmpeg-7.0.1.tar.xz
+      https://ffmpeg.org/releases/ffmpeg-7.0.1.tar.xz
+      sha256 bce9eeb0f17ef8982390b1f37711a61b4290dc8c2a0c1a37b5857e85bfb0e4ff
+      Confirmed: the RELEASE file inside reads 7.0.1.
+
+  x264-r3108-31e19f9.tar.bz2
+      https://code.videolan.org/videolan/x264/-/archive/
+        31e19f92f00c7003fa115047ce50978bc98c3a0d/
+        x264-31e19f92f00c7003fa115047ce50978bc98c3a0d.tar.bz2
+      sha256 01a4acb74eea1118c3aa96c3e18ee3384bc1f2bc670f31fb0f63be853e4d9d08
+      Renamed on the way in; the directory inside still carries the full hash.
+      COPYING is the GNU GPL version 2, and x264.h states "either version 2 of
+      the License, or (at your option) any later version".
+
+  x265-f0c1022b6.tar.gz
+      https://bitbucket.org/multicoreware/x265_git/get/f0c1022b6be1.tar.gz
+      sha256 5ca3403c08de4716719575ec56c686b1eb55b078c0fe50a064dcf1ac20af1618
+      COPYING is the GNU GPL version 2, and source/x265.h states "either
+      version 2 of the License, or (at your option) any later version".
+
+  Retrieved 2026-08-21.
+
+  Verbatim licence texts for these three are the GPL texts already delivered
+  for poppler, in this same directory:
+      poppler-LICENSE-GPL-2.0.txt
+      poppler-LICENSE-GPL-3.0.txt
+  They are the licences themselves, not poppler's applied copies, so they serve
+  every GPL component in this delivery. The file names are historical.
+
+
+Two things stated rather than smoothed over
+--------------------------------------------------------------------------------
+
+1. The x265 archive's in-tree version files disagree with the binary.
+   x265Version.txt inside reads "releasetag: 3.4" and .hgtags stops at 3.4_RC1,
+   while the delivered binary reports 3.5+1. The commit hash is what both agree
+   on: the binary says f0c1022b6 and Bitbucket resolved the request to
+   f0c1022b6be1. x265 migrated from Mercurial to Git and those two in-tree
+   files were not kept current afterwards, which is the likely explanation.
+   The commit hash is treated as the authoritative identifier here. If a
+   recipient needs certainty on the tag, the hash is what to check against
+   upstream.
+
+2. These are pristine upstream sources for the identified versions. We did not
+   build these binaries — the opencv-python project did, from Homebrew-packaged
+   sources on its own build machine. If that build applied downstream patches,
+   the truly "corresponding" source would be the patched tree rather than these
+   archives. The build-configuration string recovered above is recorded in full
+   in this file so that the build can be reconstructed. This limitation is
+   inherent to redistributing someone else's binary build.
+
+3. This directory addresses the SOURCE obligation for the three components
+   named above. Attribution for those three, and for the other native
+   libraries the OpenCV distribution bundles, is addressed in section 5.6 of
+   compliance/THIRD-PARTY-NOTICES.txt.
