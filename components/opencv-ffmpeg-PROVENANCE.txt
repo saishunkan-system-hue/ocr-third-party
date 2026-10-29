@@ -1,26 +1,27 @@
-Corresponding source for the GPL binaries inside opencv-contrib-python
+Corresponding source for the copyleft binaries inside opencv-python-headless
 ================================================================================
 
-Why these three archives are here
+Why these archives are here
 --------------------------------------------------------------------------------
 
-opencv-contrib-python 4.10.0.84 declares Apache-2.0, which is accurate for
-OpenCV itself. The wheel also ships 75 prebuilt native libraries in
-cv2/.dylibs/, and three of those components are licensed GPL-2.0-or-later:
-FFmpeg (built with --enable-gpl), x264 and x265.
+opencv-python-headless 4.10.0.84 declares Apache-2.0, which is accurate for
+OpenCV itself. The wheel also ships 63 prebuilt native libraries in
+cv2/.dylibs/. Three of those components are GPL: FFmpeg (built with
+--enable-gpl --enable-version3, so GPL-3.0-or-later), x264 and x265
+(GPL-2.0-or-later). Thirteen more are LGPL or MPL-2.0 libraries that FFmpeg
+links; they are listed under "The LGPL/MPL libraries" below.
 
 We redistribute those binaries — they are inside the delivered numericEngine
-executable and inside the Python environment on the delivered machine — so GPL
-section 3 obliges us to make the corresponding source available to the
-recipient. That obligation is discharged under section 3(b), by the written
-offer in section 3.0 of compliance/THIRD-PARTY-NOTICES.txt. The archives named
-below are the source that offer provides; this file is the record of how each
-was identified from the binary, and it is delivered with the product so the
-identification can be checked without relying on the server the archives came
-from.
+executable — so the GPL, the LGPL and the MPL oblige us to make the
+corresponding source available to the recipient. That obligation is discharged
+by the written offer in section 3.0 of compliance/THIRD-PARTY-NOTICES.txt. The
+archives named below are the source that offer provides; this file is the
+record of how each was identified from the binary, and it is delivered with the
+product so the identification can be checked without relying on the server the
+archives came from.
 
 The wheel's own cv2/LICENSE-3RD-PARTY.txt does not name x264 or x265 and
-contains no GPL text, so it cannot be relied on as the notice for these three.
+contains no GPL text, so it cannot be relied on as the notice for these.
 See section 5.6 of compliance/THIRD-PARTY-NOTICES.txt.
 
 
@@ -29,36 +30,47 @@ How the versions were identified
 
 Not from an index lookup or from the wheel metadata, neither of which records
 them. They were read out of the delivered binaries themselves, in
-numericEngine/venv/lib/python3.11/site-packages/cv2/.dylibs/ :
 
-  FFmpeg   the build-configuration string embedded in
-           libavcodec.61.3.100.dylib begins
+    numericEngine/app/_internal/cv2/.dylibs/
 
-               --prefix=/usr/local/Cellar/ffmpeg/7.0.1 ... --enable-gpl
-               --enable-version3 --enable-libx264 --enable-libx265
-               --enable-libxvid --enable-frei0r --enable-libvidstab
-               --enable-librubberband ...
+of the delivered build, which is arm64.
 
-           so the version is 7.0.1 and the build is the GPL one. FFmpeg is
-           LGPL-2.1-or-later by default; --enable-gpl makes the result
-           GPL-2.0-or-later, and --enable-version3 makes parts
-           GPL-3.0-or-later. FFmpeg refuses to build with --enable-gpl unless
-           a GPL-only component is requested, and six were.
+Not from a development virtualenv. This matters, and an earlier revision of
+this file got it wrong: the same opencv-python-headless 4.10.0.84 release ships
+DIFFERENT native libraries per architecture. The x86_64 (Intel) wheel carries
+FFmpeg 7.0.1 and libx265.209; the arm64 wheel, which is the one delivered,
+carries FFmpeg 6.0 and libx265.199. That earlier revision recorded the Intel
+wheel's FFmpeg 7.0.1 and x265 3.5+1. Both are corrected below.
+
+  FFmpeg   libavcodec.60.3.100.dylib. Its build-configuration string begins
+
+               --prefix=/opt/homebrew/Cellar/ffmpeg/6.0_2 --enable-shared
+               --enable-pthreads --enable-version3 ... --enable-gpl ...
+               --enable-libx264 --enable-libx265 ...
+
+           so the version is 6.0, Homebrew revision 6.0_2, and the build is the
+           GPL one. The library's own avcodec_license() string reads
+           "GPL version 3 or later". FFmpeg is LGPL-2.1-or-later by default;
+           --enable-gpl makes the result GPL, and --enable-version3 makes it
+           GPL-3.0-or-later.
 
   x264     libx264.164.dylib reports "r3108 31e19f9".
            r3108 is the revision, 31e19f9 the git commit.
 
-  x265     libx265.209.dylib reports "3.5+1-f0c1022b6", meaning one commit
-           past tag 3.5, at commit f0c1022b6.
+  x265     libx265.199.dylib reports "3.4+31-6722fce1f": 31 commits past tag
+           3.4, at commit 6722fce1f, API build 199.
 
 
 The archives
 --------------------------------------------------------------------------------
 
-  ffmpeg-7.0.1.tar.xz
-      https://ffmpeg.org/releases/ffmpeg-7.0.1.tar.xz
-      sha256 bce9eeb0f17ef8982390b1f37711a61b4290dc8c2a0c1a37b5857e85bfb0e4ff
-      Confirmed: the RELEASE file inside reads 7.0.1.
+  ffmpeg-6.0.tar.xz
+      https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz
+      sha256 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082
+      The sha256 the Homebrew formula records for ffmpeg 6.0.
+      Homebrew 6.0_2 applies two patches on top of it; both are in
+      opencv-bundled/patches/ and the formula is in
+      opencv-bundled/homebrew-formula/ffmpeg.rb.
 
   x264-r3108-31e19f9.tar.bz2
       https://code.videolan.org/videolan/x264/-/archive/
@@ -72,10 +84,17 @@ The archives
   x265-f0c1022b6.tar.gz
       https://bitbucket.org/multicoreware/x265_git/get/f0c1022b6be1.tar.gz
       sha256 5ca3403c08de4716719575ec56c686b1eb55b078c0fe50a064dcf1ac20af1618
+      The same bytes as the archive the Homebrew x265 3.5 formula records,
+      https://bitbucket.org/multicoreware/x265_git/get/3.5.tar.gz, with the
+      same sha256.
+      Inside, x265Version.txt reads "releasetag: 3.4", "releasetagdistance:
+      31", "repositorychangeset: 6722fce1f", and source/CMakeLists.txt sets
+      X265_BUILD 199 — exactly what the delivered binary reports. The archive
+      name is historical and is kept so the file does not change.
       COPYING is the GNU GPL version 2, and source/x265.h states "either
       version 2 of the License, or (at your option) any later version".
 
-  Retrieved 2026-08-21.
+  x264 and x265 retrieved 2026-08-21; ffmpeg-6.0.tar.xz retrieved 2026-10-29.
 
   Verbatim licence texts for these three are the GPL texts already delivered
   for poppler, in this same directory:
@@ -85,28 +104,54 @@ The archives
   every GPL component in this delivery. The file names are historical.
 
 
-Two things stated rather than smoothed over
+The LGPL/MPL libraries
 --------------------------------------------------------------------------------
 
-1. The x265 archive's in-tree version files disagree with the binary.
-   x265Version.txt inside reads "releasetag: 3.4" and .hgtags stops at 3.4_RC1,
-   while the delivered binary reports 3.5+1. The commit hash is what both agree
-   on: the binary says f0c1022b6 and Bitbucket resolved the request to
-   f0c1022b6be1. x265 migrated from Mercurial to Git and those two in-tree
-   files were not kept current afterwards, which is the likely explanation.
-   The commit hash is treated as the authoritative identifier here. If a
-   recipient needs certainty on the tag, the hash is what to check against
-   upstream.
+FFmpeg in this build links thirteen further copyleft libraries, all bundled in
+cv2/.dylibs/. Their source, the Homebrew formulas they were built from and the
+patches those formulas apply are published under opencv-bundled/, and every
+file is listed with its sha256 in opencv-bundled-MANIFEST.txt, which is
+delivered with the product. Each archive and patch matched the sha256 its
+formula records at homebrew-core commit 042325cd3852, retrieved 2026-10-29.
 
-2. These are pristine upstream sources for the identified versions. We did not
-   build these binaries — the opencv-python project did, from Homebrew-packaged
-   sources on its own build machine. If that build applied downstream patches,
-   the truly "corresponding" source would be the patched tree rather than these
-   archives. The build-configuration string recovered above is recorded in full
-   in this file so that the build can be reconstructed. This limitation is
-   inherent to redistributing someone else's binary build.
+  gnutls 3.8.2          Homebrew Cellar path in the binary
+                        LGPL-2.1-or-later
+  nettle/hogweed 3.9.1  nettle_version_* API reports 3.9; patch level from
+                        the formula. LGPL-3.0-or-later OR GPL-2.0-or-later
+  gmp 6.3.0             version string. LGPL-3.0-or-later OR GPL-2.0-or-later
+  libidn2 2.3.4         version string. LGPL-3.0-or-later OR GPL-2.0-or-later
+  libunistring 1.1      _libunistring_version (0x0101)
+                        LGPL-3.0-or-later OR GPL-2.0-or-later
+  libtasn1 4.19.0       version string. LGPL-2.1-or-later
+  gettext 0.22.4        Homebrew Cellar path in libintl. LGPL-2.1-or-later
+  libbluray 1.3.4       "libbluray version" string. LGPL-2.1-or-later
+  lame 3.100            version string in libmp3lame. LGPL-2.0-or-later
+  soxr 0.1.3            "libsoxr-0.1.3" string. LGPL-2.1-or-later
+  aribb24 1.0.4         INFERRED from the formula; the binary carries no
+                        version. LGPL-3.0-or-later
+  srt 1.5.3             library file name + formula. MPL-2.0
+  zeromq 4.3.5          zmq_version() API. MPL-2.0
 
-3. This directory addresses the SOURCE obligation for the three components
-   named above. Attribution for those three, and for the other native
-   libraries the OpenCV distribution bundles, is addressed in section 5.6 of
+p11-kit is also in cv2/.dylibs/ but is BSD-3-Clause: attribution only.
+
+
+Things stated rather than smoothed over
+--------------------------------------------------------------------------------
+
+1. These are pristine upstream sources plus the Homebrew formulas and patches
+   for the identified versions. We did not build these binaries — the
+   opencv-python project did, from Homebrew bottles on its own build machine.
+   The FFmpeg formula is pinned to the commit that produced bottle 6.0_2; the
+   bottles of the libraries it depends on may have been built at an earlier
+   formula commit, but at the same upstream versions. The build-configuration
+   string recovered above is recorded so that the build can be reconstructed.
+   This limitation is inherent to redistributing someone else's binary build.
+
+2. Two versions are inferred rather than read: aribb24 (the binary carries no
+   version at all) and nettle's patch level (the API reports 3.9; 3.9.1 is
+   what the formula of that date builds).
+
+3. This directory addresses the SOURCE obligation for the components named
+   above. Attribution for them, and for the other native libraries the OpenCV
+   distribution bundles, is addressed in section 5.6 of
    compliance/THIRD-PARTY-NOTICES.txt.

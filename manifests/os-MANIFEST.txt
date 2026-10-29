@@ -7,10 +7,12 @@ documents for the images built for this delivery. Every delivered
 machine is built separately; this manifest describes one machine.
 
 Scope     : copyleft+alpine  (copyleft Debian packages, plus every Alpine package because apk ships no licence text)
-Files     : 895
+Files     : 1226
 Failures  : 0   (1 reported by the run; resolved by hand — see MANUAL COMPLETION)
 
-MANUAL COMPLETION — 28 Oct 2026
+MANUAL COMPLETION)
+
+MANUAL COMPLETION — 29 Oct 2026
 ==============================================================================
 
 The collector run reported 1 failure. It is resolved and the file is
@@ -122,7 +124,7 @@ NOT COLLECTED HERE, and why. This tree is complete for what it
 claims and no more; read this before citing it as discharging any
 obligation.
 
-  158 permissive Debian source packages.
+  62 permissive Debian source packages.
   They owe attribution, not source, and every Debian
   package installs /usr/share/doc/<pkg>/copyright inside
   the delivered image — so their attribution travels with
@@ -4375,6 +4377,70 @@ alpine  zstd                     1.5.7-r2
     sha256  : 37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3
     bytes   : 2,451,884
 
+debian  acl                      2.3.1-3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/acl_2.3.1-3/acl_2.3.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c0234042e17f11306c23c038b08e5e070edb7be44bef6697fb8734dcff1c66b1
+    bytes   : 355,676
+
+debian  acl                      2.3.1-3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/acl_2.3.1-3/acl_2.3.1.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 54fb8fcd6ae6901f2257e18d503e5e18ad956babf8d80d2ea29f280fc7264662
+    bytes   : 833
+
+debian  acl                      2.3.1-3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/acl_2.3.1-3/acl_2.3.1-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7820eee88cce7244e0b8eb25cc4f51bdf10aff7a6c1a497f3d18c36bdce712cc
+    bytes   : 2,508
+
+debian  acl                      2.3.1-3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/acl_2.3.1-3/acl_2.3.1-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2eb052bba784a4b873e951b1f91af2abef62e4bf4b83c93f9821eea26f66c8e2
+    bytes   : 30,968
+
+debian  acl                      2.3.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/acl_2.3.2-2/acl_2.3.2.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 97203a72cae99ab89a067fe2210c1cbf052bc492b479eca7d226d9830883b0bd
+    bytes   : 371,680
+
+debian  acl                      2.3.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/acl_2.3.2-2/acl_2.3.2.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 184c6a903490885a096095db67b433a04542c6569f167cbe8115268c0f227273
+    bytes   : 833
+
+debian  acl                      2.3.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/acl_2.3.2-2/acl_2.3.2-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e27b6e194c0a7554595d76f96acdceb800631bdc46c36457b73bc7e4a0c5f2ee
+    bytes   : 24,296
+
+debian  acl                      2.3.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/acl_2.3.2-2/acl_2.3.2-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1f42130ccb5442fe2db2aee1dcc03c51a31512dd2519a38e8fc9270c5abbc807
+    bytes   : 2,604
+
 debian  adduser                  3.134
     licence : copyleft named in the copyright file
     images  : redis
@@ -4454,6 +4520,70 @@ debian  architecture-properties  0.2.6
     verified: sha1, against the publisher's own checksum
     sha256  : cec5cbfc3516fb1d51174bc2d95bb69d2d2c726b25a5c05ab73593a3a5ee20a8
     bytes   : 5,368
+
+debian  attr                     1:2.5.1-4
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/attr_1%3a2.5.1-4/attr_2.5.1-4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0e1486bff1649602cb5cbb6224dbb641436dc8cd28d5c336ad85d650e07d23dd
+    bytes   : 2,477
+
+debian  attr                     1:2.5.1-4
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/attr_1%3a2.5.1-4/attr_2.5.1.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 67bc632e754efbadba846d0b40138b3fc3e306c3b909a9ba868c6dba1e2689d0
+    bytes   : 833
+
+debian  attr                     1:2.5.1-4
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/attr_1%3a2.5.1-4/attr_2.5.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : db448a626f9313a1a970d636767316a8da32aede70518b8050fa0de7947adc32
+    bytes   : 318,188
+
+debian  attr                     1:2.5.1-4
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/attr_1%3a2.5.1-4/attr_2.5.1-4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : aea02a3c980a82804a5a333bf02e9e2737a8c5808671625595511290863d6791
+    bytes   : 32,152
+
+debian  attr                     1:2.5.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/attr_1%3a2.5.2-3/attr_2.5.2-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 153f98c87575277ea021e24dae36293b7738699174438a2060b47e8312b771e3
+    bytes   : 32,260
+
+debian  attr                     1:2.5.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/attr_1%3a2.5.2-3/attr_2.5.2-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c2ae3e15db059029030ddf4fdac179d8f90d423f2310a6ef8c745ba28ac18b0a
+    bytes   : 2,576
+
+debian  attr                     1:2.5.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/attr_1%3a2.5.2-3/attr_2.5.2.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f2e97b0ab7ce293681ab701915766190d607a1dba7fae8a718138150b700a70b
+    bytes   : 334,180
+
+debian  attr                     1:2.5.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/attr_1%3a2.5.2-3/attr_2.5.2.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : eeac729088d3c6379e91b7596cb3582e46b047c47f0fa3c5c77f9c9e84dc3a4c
+    bytes   : 833
 
 debian  audit                    1:3.0.9-1
     licence : copyleft named in the copyright file
@@ -4751,6 +4881,30 @@ debian  binutils                 2.44-3
     sha256  : 5abd1ae1adb61fd8ecbadfdc16668738668e81c745884aefa0ce97791b2a74b8
     bytes   : 11,429
 
+debian  bzip2                    1.0.8-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/bzip2_1.0.8-5/bzip2_1.0.8-5.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : ed9c40f4de3f9e064535e15eac1c61a0f606763db98f4579dbc04067b94a8944
+    bytes   : 2,206
+
+debian  bzip2                    1.0.8-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/bzip2_1.0.8-5/bzip2_1.0.8-5.debian.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : d68c6eba11d70e14319e24ef1451880a03023b2b75364646adb117086db36039
+    bytes   : 26,787
+
+debian  bzip2                    1.0.8-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/bzip2_1.0.8-5/bzip2_1.0.8.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
+    bytes   : 810,029
+
 debian  bzip2                    1.0.8-6
     licence : copyleft named in the copyright file
     images  : be, db
@@ -4790,6 +4944,62 @@ debian  ca-certificates          20250419+deb13u1
     verified: sha1, against the publisher's own checksum
     sha256  : 1b2e3d0b90cfc62ac8033d64e18ea4649fbb2a01c937c9ac9d36e762da6b9446
     bytes   : 277,284
+
+debian  cairo                    1.18.4-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/cairo_1.18.4-1/cairo_1.18.4.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 445ed8208a6e4823de1226a74ca319d3600e83f6369f99b14265006599c32ccb
+    bytes   : 32,578,804
+
+debian  cairo                    1.18.4-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/cairo_1.18.4-1/cairo_1.18.4-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bf2d9ea10097fd06faf6b4ef2149677e7aa0eb8abf85aa5d46851ea11a713f68
+    bytes   : 29,920
+
+debian  cairo                    1.18.4-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/cairo_1.18.4-1/cairo_1.18.4-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 717ca0717208ae5ef1ab354e47328867ee7038fe65fb75e0ce366139b34bf67f
+    bytes   : 2,763
+
+debian  cdebconf                 0.270
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/cdebconf_0.270/cdebconf_0.270.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d7f396abbbfb2d38fc15589358d05618c9918f4f10facfe1ac259efef91e8a5f
+    bytes   : 2,703
+
+debian  cdebconf                 0.270
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/cdebconf_0.270/cdebconf_0.270.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c27ef57f7dc8a2e7e9651cd0e964f543677bb314a1cf9bc1019736818e342638
+    bytes   : 284,336
+
+debian  cdebconf                 0.280
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/cdebconf_0.280/cdebconf_0.280.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 36cdaa45fca445d2164fbdd81faad9918d748fa703678d8af237354d5744b1d1
+    bytes   : 2,703
+
+debian  cdebconf                 0.280
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/cdebconf_0.280/cdebconf_0.280.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c42115131939845e452a323ceded937efad3b2e3e1b80a1a186f9d5c494a43a2
+    bytes   : 286,132
 
 debian  coreutils                9.1-1
     licence : copyleft named in the copyright file
@@ -4879,6 +5089,30 @@ debian  curl                     8.14.1-2+deb13u7
     sha256  : 6766ada7101d292b42b8b15681120acd68effa4a9660935853cf6d61f0d984d4
     bytes   : 4,250,332
 
+debian  cyrus-sasl2              2.1.28+dfsg1-9
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/cyrus-sasl2_2.1.28+dfsg1-9/cyrus-sasl2_2.1.28+dfsg1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e796a5d85d1a85e1b433d43504e467f9075c7ebc0b45730a3996cf11b1deada4
+    bytes   : 794,540
+
+debian  cyrus-sasl2              2.1.28+dfsg1-9
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/cyrus-sasl2_2.1.28+dfsg1-9/cyrus-sasl2_2.1.28+dfsg1-9.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 179cda376ee9f9a54098f902174299dd183ae78c703f72b86bd4c3297db4c153
+    bytes   : 3,306
+
+debian  cyrus-sasl2              2.1.28+dfsg1-9
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/cyrus-sasl2_2.1.28+dfsg1-9/cyrus-sasl2_2.1.28+dfsg1-9.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8215afa01ee2907da0a650bfa6b9cf0fae12f2611a098eedd853b5e71adf6623
+    bytes   : 99,180
+
 debian  dash                     0.5.12-12
     licence : copyleft named in the copyright file
     images  : be, db
@@ -4926,6 +5160,46 @@ debian  dash                     0.5.12-2
     verified: sha1, against the publisher's own checksum
     sha256  : 25c0fb805c735fdb7470ce485ce76dae1a7b6c04efdfb0fdac5eab921cbd78a5
     bytes   : 1,520
+
+debian  db-defaults              5.3.4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/db-defaults_5.3.4/db-defaults_5.3.4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0709e552cc31edcad465fc057bb04fcfd9f0467637125374bed81432fb922bef
+    bytes   : 1,585
+
+debian  db-defaults              5.3.4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/db-defaults_5.3.4/db-defaults_5.3.4.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1774d9974b0afba1d8fc02186ed05e38287a97f94623b440b5e7606831e9c442
+    bytes   : 2,600
+
+debian  db5.3                    5.3.28+dfsg2-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/db5.3_5.3.28+dfsg2-1/db5.3_5.3.28+dfsg2-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : fe84d3cd7cde381f1c5a18f223377cf84ea7627ced8063ef33ef8fd93f6e09f4
+    bytes   : 2,887
+
+debian  db5.3                    5.3.28+dfsg2-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/db5.3_5.3.28+dfsg2-1/db5.3_5.3.28+dfsg2-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 52cb792fe53138c79a0328ffd1d771e3112791f546fd00e0dcd4b0e3efc5d916
+    bytes   : 34,660
+
+debian  db5.3                    5.3.28+dfsg2-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/db5.3_5.3.28+dfsg2-1/db5.3_5.3.28+dfsg2.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ad41b507415dec8316e828b2230242af2251d2c86eefa3c7aa9ef47c5239ef33
+    bytes   : 21,287,688
 
 debian  db5.3                    5.3.28+dfsg2-9
     licence : copyleft named in the copyright file
@@ -5183,6 +5457,62 @@ debian  e2fsprogs                1.47.0-2
     sha256  : 704928204a52ddaa0ac8ef549c1bfba3c38e66c361d3853c8a4c38e6082b90f1
     bytes   : 488
 
+debian  e2fsprogs                1.47.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/e2fsprogs_1.47.2-3/e2fsprogs_1.47.2.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6dcd67ff9d8b13274ba3f088e4318be4f5b71412cd863524423fc49d39a6371f
+    bytes   : 9,996,725
+
+debian  e2fsprogs                1.47.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/e2fsprogs_1.47.2-3/e2fsprogs_1.47.2-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 860abb653ecbe01a11bb7e41c9e09a45e83847bffa585f7a3d3c0f9401c9d4bb
+    bytes   : 3,035
+
+debian  e2fsprogs                1.47.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/e2fsprogs_1.47.2-3/e2fsprogs_1.47.2-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5517aae5ce5196e49fa314492f0639ad7a1692c9521d703b6c81acff77a1564e
+    bytes   : 103,684
+
+debian  e2fsprogs                1.47.2-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/e2fsprogs_1.47.2-3/e2fsprogs_1.47.2.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2063f62a198dd3df21f789c990c2cf9b4a5de24ed55f0b78d86e97e98daffc9d
+    bytes   : 488
+
+debian  elfutils                 0.192-4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/elfutils_0.192-4/elfutils_0.192.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : 616099beae24aba11f9b63d86ca6cc8d566d968b802391334c91df54eab416b4
+    bytes   : 11,913,897
+
+debian  elfutils                 0.192-4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/elfutils_0.192-4/elfutils_0.192-4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 37d101658c45a25afc15d2053a1378df2381dadbb368e262ede2cea79241779f
+    bytes   : 3,314
+
+debian  elfutils                 0.192-4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/elfutils_0.192-4/elfutils_0.192-4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : a18efee3ae99ea25e10a0b8c4b731a28dee685361ae89ea8136e9065c86c8942
+    bytes   : 44,456
+
 debian  fftw3                    3.3.10-2
     licence : copyleft named in the copyright file
     images  : be
@@ -5295,6 +5625,110 @@ debian  fonts-dejavu             2.37-8
     sha256  : 4b21c5203f792343d5e90ab1cb0cf07e99887218abe3d83cd9a98cea9085e799
     bytes   : 12,050,109
 
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg.orig-ft2demos.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8775e5ffded1a885ba2ccb3ea0e82c73306a03b764080c3e4c79da15b5c9a28a
+    bytes   : 342,404
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg.orig-ft2demos.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 931bfa17e59c0ec7db391160f43977e0907f36ea3c39d7e6063731cd4612dd51
+    bytes   : 833
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg-1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e7a07cad1b9c803457ec310bc87132429f52171c89f9126c09eb62e203c8c84b
+    bytes   : 44,488
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 686ec73cbf6783b245dd068a09ce807b729ac0f8a46dd70f7867923c32fdf4de
+    bytes   : 2,201,416
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg.orig-ft2docs.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 65c66aec6244d247540430b21d3e80b677f1361906347a5be7fad371d46655da
+    bytes   : 833
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg.orig-ft2docs.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b7b66149bea769e226fd3d6d1eee6160e5b6beb4249b088071434fbe85fd1070
+    bytes   : 2,173,852
+
+debian  freetype                 2.13.3+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/freetype_2.13.3+dfsg-1+deb13u1/freetype_2.13.3+dfsg-1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8aa6e936f4b8ce5b1ac530d3c1bc7c5c36e6432ef81385c29ce649a3ed79e8cd
+    bytes   : 3,691
+
+debian  fribidi                  1.0.16-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/fribidi_1.0.16-1/fribidi_1.0.16-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 10f003abcad934adde409c94f2780ec9638517dc1cc495b2a1df03a13c1d4315
+    bytes   : 2,004
+
+debian  fribidi                  1.0.16-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/fribidi_1.0.16-1/fribidi_1.0.16.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1b1cde5b235d40479e91be2f0e88a309e3214c8ab470ec8a2744d82a5a9ea05c
+    bytes   : 1,098,260
+
+debian  fribidi                  1.0.16-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/fribidi_1.0.16-1/fribidi_1.0.16-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8d1cd7177a436b25ca8153e3dd2b9fb6da411a2c3cb0105eaadf4e42b777da6f
+    bytes   : 8,928
+
+debian  gcc-12                   12.2.0-14+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gcc-12_12.2.0-14+deb12u1/gcc-12_12.2.0-14+deb12u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 59f7f7763a0c355e3f27ff9e7ac80d06382b29939361a87e7b139226bfe7402e
+    bytes   : 1,675,204
+
+debian  gcc-12                   12.2.0-14+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gcc-12_12.2.0-14+deb12u1/gcc-12_12.2.0-14+deb12u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3aed0b189189c744dc9f4b74798a51d3e512ea85e492568db788a927c88e20ba
+    bytes   : 27,330
+
+debian  gcc-12                   12.2.0-14+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gcc-12_12.2.0-14+deb12u1/gcc-12_12.2.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b8298be16aeeb96a889c6afed0a8e2241b47452e89cc81fe65ea849d5c740fcb
+    bytes   : 87,090,343
+
 debian  gcc-14                   14.2.0-19
     licence : copyleft named in the copyright file
     images  : be, db
@@ -5334,6 +5768,38 @@ debian  gcc-defaults             1.220
     verified: sha1, against the publisher's own checksum
     sha256  : abfa2d362033435385e733f97d0cace1fbc917fd4160c81cc89abac38d3cdc37
     bytes   : 36,895
+
+debian  gdbm                     1.24-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gdbm_1.24-2/gdbm_1.24.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 695e9827fdf763513f133910bc7e6cfdb9187943a4fec943e57449723d2b8dbf
+    bytes   : 1,195,931
+
+debian  gdbm                     1.24-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gdbm_1.24-2/gdbm_1.24.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8fb2f87e817ed6bd1d7ef2ab976f6a0046814a5ff28a06c521b796e0d3fd1226
+    bytes   : 195
+
+debian  gdbm                     1.24-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gdbm_1.24-2/gdbm_1.24-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 28acecf1cf00240942833c04079a02bb4c199a48faa1f4ca90f0ea9b79dc5841
+    bytes   : 2,466
+
+debian  gdbm                     1.24-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gdbm_1.24-2/gdbm_1.24-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 736d23450674c1bf0b03a2f65b83870b0801bc3747df3099df970c1479b0ab63
+    bytes   : 16,880
 
 debian  gdk-pixbuf               2.42.12+dfsg-4+deb13u1
     licence : copyleft named in the copyright file
@@ -5495,6 +5961,54 @@ debian  glibc                    2.41-12+deb13u4
     sha256  : 0915324aa646bb99abfaa9aa6ecb734b30babd28454a3e51f3152912370fbd3e
     bytes   : 7,576
 
+debian  gmp                      2:6.2.1+dfsg1-1.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gmp_2%3a6.2.1+dfsg1-1.1/gmp_6.2.1+dfsg1-1.1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2831ed4f83bc3304c2403474b335652ab2dc507cd517de44414d9142171748f0
+    bytes   : 2,238
+
+debian  gmp                      2:6.2.1+dfsg1-1.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gmp_2%3a6.2.1+dfsg1-1.1/gmp_6.2.1+dfsg1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 471b9e463e04362a0124f215afc5f0a4b99caedeeb62634c61bbc12988efa64c
+    bytes   : 1,787,428
+
+debian  gmp                      2:6.2.1+dfsg1-1.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gmp_2%3a6.2.1+dfsg1-1.1/gmp_6.2.1+dfsg1-1.1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4e3e324d72fe688e409c716d33b35aa8657f6016cc1aabd5d9c7ec137412e5ef
+    bytes   : 19,444
+
+debian  gmp                      2:6.3.0+dfsg-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gmp_2%3a6.3.0+dfsg-3/gmp_6.3.0+dfsg.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bd2966e6d277f79328e894a5a9f3ba3fbf2ed2be81def5f48623e30c23fb1572
+    bytes   : 1,870,556
+
+debian  gmp                      2:6.3.0+dfsg-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gmp_2%3a6.3.0+dfsg-3/gmp_6.3.0+dfsg-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : f7b64af28f52b7346bb8581e01d3c19daf769639345f234f8ae1e29c42171443
+    bytes   : 2,251
+
+debian  gmp                      2:6.3.0+dfsg-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gmp_2%3a6.3.0+dfsg-3/gmp_6.3.0+dfsg-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1d890bbe25dd649d2ddba1926483176520e50f22115a00566f250b613b8c20ad
+    bytes   : 19,912
+
 debian  gnupg2                   2.2.40-1.1+deb12u2
     licence : copyleft named in the copyright file
     images  : redis
@@ -5558,6 +6072,158 @@ debian  gnupg2                   2.4.7-21+deb13u1
     verified: sha1, against the publisher's own checksum
     sha256  : 30a96cd2d26a57f6796507bf8f083825734d4081e3c5f922d2b99bb2bf671212
     bytes   : 4,933
+
+debian  gnutls28                 3.7.9-2+deb12u7
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gnutls28_3.7.9-2+deb12u7/gnutls28_3.7.9-2+deb12u7.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 027b2f60e38add78ee611d099dbf34e977a6600d446cc39673534b736a182cb6
+    bytes   : 3,421
+
+debian  gnutls28                 3.7.9-2+deb12u7
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gnutls28_3.7.9-2+deb12u7/gnutls28_3.7.9.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : aaa03416cdbd54eb155187b359e3ec3ed52ec73df4df35a0edd49429ff64d844
+    bytes   : 6,377,212
+
+debian  gnutls28                 3.7.9-2+deb12u7
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gnutls28_3.7.9-2+deb12u7/gnutls28_3.7.9.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : da4a96b14edd3cd44971a36ba1e976af1057e57a2d6c21b0cc7025c983ee84cc
+    bytes   : 996
+
+debian  gnutls28                 3.7.9-2+deb12u7
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/gnutls28_3.7.9-2+deb12u7/gnutls28_3.7.9-2+deb12u7.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bcfcf396482ce7635df255abeff1c811321a84f016c95677db28f56908b25595
+    bytes   : 164,116
+
+debian  gnutls28                 3.8.9-3+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gnutls28_3.8.9-3+deb13u4/gnutls28_3.8.9.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7631d47762865d4ef494492cca794cf0fe6a8be892a4aa02f362ae29006d3054
+    bytes   : 833
+
+debian  gnutls28                 3.8.9-3+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gnutls28_3.8.9-3+deb13u4/gnutls28_3.8.9.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 69e113d802d1670c4d5ac1b99040b1f2d5c7c05daec5003813c049b5184820ed
+    bytes   : 6,847,364
+
+debian  gnutls28                 3.8.9-3+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gnutls28_3.8.9-3+deb13u4/gnutls28_3.8.9-3+deb13u4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f0b9c7d182072f0bbdb281304686aa6e2bfd343dadefa432ec4dab4893e9841f
+    bytes   : 140,880
+
+debian  gnutls28                 3.8.9-3+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/gnutls28_3.8.9-3+deb13u4/gnutls28_3.8.9-3+deb13u4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : f1153e91212bdf60acf66cb62713ad4ed577f2e85f578a04df31a5619624c1e1
+    bytes   : 3,271
+
+debian  gobject-introspection    1.84.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gobject-introspection_1.84.0-1/gobject-introspection_1.84.0-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : cf33962fbdb12b9562889b181ea1054b33dbcb11514c1873feab9e8bfabdd686
+    bytes   : 4,202
+
+debian  gobject-introspection    1.84.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gobject-introspection_1.84.0-1/glib2.0_2.79.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b3764dd6e29b664085921dd4dd6ba2430fc19760ab6857ecfa3ebd4e8c1d114c
+    bytes   : 5,475,296
+
+debian  gobject-introspection    1.84.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gobject-introspection_1.84.0-1/gobject-introspection_1.84.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779
+    bytes   : 1,080,316
+
+debian  gobject-introspection    1.84.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gobject-introspection_1.84.0-1/gobject-introspection_1.84.0-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f06e9414cf0a6781ef133a5ba6234769b7bc0126f9fffefba08da590f7711351
+    bytes   : 58,824
+
+debian  gpgme1.0                 1.24.2-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gpgme1.0_1.24.2-3/gpgme1.0_1.24.2-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 822672941458bfd0953527b53899fd88e38f84b16220bbade2bab598f8435d46
+    bytes   : 3,255
+
+debian  gpgme1.0                 1.24.2-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gpgme1.0_1.24.2-3/gpgme1.0_1.24.2-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c4afd253b39b51cf8af26d6a87e18017ef79a27d4c02048f66b572c6dcb2fe11
+    bytes   : 27,984
+
+debian  gpgme1.0                 1.24.2-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gpgme1.0_1.24.2-3/gpgme1.0_1.24.2.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 15aa105622d8ea60a205c5b07a346f87e30acc8fe2fcffa1889912e6f0d8edae
+    bytes   : 228
+
+debian  gpgme1.0                 1.24.2-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/gpgme1.0_1.24.2-3/gpgme1.0_1.24.2.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : e11b1a0e361777e9e55f48a03d89096e2abf08c63d84b7017cfe1dce06639581
+    bytes   : 1,891,804
+
+debian  graphite2                1.3.14-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/graphite2_1.3.14-2+deb13u1/graphite2_1.3.14.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7a3b342c5681921ce2e0c2496509d30b5b078399d5a7bd2358f95166d57d91df
+    bytes   : 6,629,829
+
+debian  graphite2                1.3.14-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/graphite2_1.3.14-2+deb13u1/graphite2_1.3.14-2+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 13cc102b088bfcb7c1130313c7ef48b781b388fe43c5c302d5fb67cb423eef7b
+    bytes   : 2,600
+
+debian  graphite2                1.3.14-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/graphite2_1.3.14-2+deb13u1/graphite2_1.3.14-2+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 105f516b0fa5749e5106aa7f1e76a085558e5a37cb32f78188dd4e29300c3a2b
+    bytes   : 14,784
 
 debian  grep                     3.11-4
     licence : copyleft named in the copyright file
@@ -5711,6 +6377,30 @@ debian  gzip                     1.13-1+deb13u1
     sha256  : 0c25763da4f7242fbe7e9185b69bcb3f986011b04446b66a84c52bbdf731d308
     bytes   : 1,708
 
+debian  harfbuzz                 10.2.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/harfbuzz_10.2.0-1+deb13u1/harfbuzz_10.2.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 620e3468faec2ea8685d32c46a58469b850ef63040b3565cde05959825b48227
+    bytes   : 17,957,608
+
+debian  harfbuzz                 10.2.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/harfbuzz_10.2.0-1+deb13u1/harfbuzz_10.2.0-1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7694792ba03256931cbd068b9100d5bcca1d63496434af3c30b56babddd01d90
+    bytes   : 20,656
+
+debian  harfbuzz                 10.2.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/harfbuzz_10.2.0-1+deb13u1/harfbuzz_10.2.0-1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : bdc0f2aa593d42e09a35c1469d2cb9580f0b15bcae4e3a8c4b8ed586c4fb1032
+    bytes   : 2,896
+
 debian  hicolor-icon-theme       0.18-2
     licence : copyleft named in the copyright file
     images  : be
@@ -5863,6 +6553,134 @@ debian  init-system-helpers      1.69~deb13u1
     sha256  : 873082d72727267b6207e38df47e3002aeb0ed554f876db17c7bbfeb26174ee6
     bytes   : 2,266
 
+debian  isl                      0.27-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/isl_0.27-1/isl_0.27.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6d8babb59e7b672e8cb7870e874f3f7b813b6e00e6af3f8b04f7579965643d5c
+    bytes   : 2,056,436
+
+debian  isl                      0.27-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/isl_0.27-1/isl_0.27-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1ac2e33075903489d4284ff4e86645405e68a282a80432ee4ee0c43397f59224
+    bytes   : 24,868
+
+debian  isl                      0.27-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/isl_0.27-1/isl_0.27-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 35ceb67dbb1b4098431b184e342143c2bd94c4a41ebfb3a983e3be31440b0453
+    bytes   : 1,829
+
+debian  jbigkit                  2.1-6.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/jbigkit_2.1-6.1/jbigkit_2.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : de7106b6bfaf495d6865c7dd7ac6ca1381bd12e0d81405ea81e7f2167263d932
+    bytes   : 438,710
+
+debian  jbigkit                  2.1-6.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/jbigkit_2.1-6.1/jbigkit_2.1-6.1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c9ba99e84d18b1affdc97b26b625721ed06b41a92996d9b426b62c0dbe3868cd
+    bytes   : 9,244
+
+debian  jbigkit                  2.1-6.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/jbigkit_2.1-6.1/jbigkit_2.1-6.1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8dea586c47cb4b2436f77fd33ef4a702b9da936d74de8332a72a8ddbe8124e09
+    bytes   : 2,089
+
+debian  keyutils                 1.6.3-6
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/keyutils_1.6.3-6/keyutils_1.6.3-6.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : e63869474c390d5d5bdee8492f7b2f4d6034ff10d8190da18593620c0f35fbf8
+    bytes   : 2,100
+
+debian  keyutils                 1.6.3-6
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/keyutils_1.6.3-6/keyutils_1.6.3-6.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6fc3c1217b8e92df9dff73e4919c45dff4ada5fd414ab57329af487f4476466a
+    bytes   : 16,588
+
+debian  keyutils                 1.6.3-6
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/keyutils_1.6.3-6/keyutils_1.6.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : a61d5706136ae4c05bd48f86186bcfdbd88dd8bd5107e3e195c924cfc1b39bb4
+    bytes   : 137,022
+
+debian  krb5                     1.21.3-5+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/krb5_1.21.3-5+deb13u1/krb5_1.21.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b7a4cd5ead67fb08b980b21abd150ff7217e85ea320c9ed0c6dadd304840ad35
+    bytes   : 9,136,145
+
+debian  krb5                     1.21.3-5+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/krb5_1.21.3-5+deb13u1/krb5_1.21.3-5+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d17d2840bc97fea2c2375245569ca67838a2b557ee083c6cbe42b129a317212c
+    bytes   : 4,189
+
+debian  krb5                     1.21.3-5+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/krb5_1.21.3-5+deb13u1/krb5_1.21.3.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 85047c935fe949ef2e275885451b168557b923dd13a5aab0ef8fe6acd27b94d7
+    bytes   : 833
+
+debian  krb5                     1.21.3-5+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/krb5_1.21.3-5+deb13u1/krb5_1.21.3-5+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 02b873b239fbe7ddf016dfe44deba4130673f4606c18c93da0622e2bc8500fb4
+    bytes   : 105,252
+
+debian  lcms2                    2.16-2+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lcms2_2.16-2+deb13u2/lcms2_2.16-2+deb13u2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bb72de5dc4164e1023a6d124c57789b6abee866d3b76c878d0771b86fb720de9
+    bytes   : 12,744
+
+debian  lcms2                    2.16-2+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lcms2_2.16-2+deb13u2/lcms2_2.16.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d873d34ad8b9b4cea010631f1a6228d2087475e4dc5e763eb81acc23d9d45a51
+    bytes   : 7,632,822
+
+debian  lcms2                    2.16-2+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lcms2_2.16-2+deb13u2/lcms2_2.16-2+deb13u2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8ff22453843eed5ef7bfb76b4cb2cfe490613337cb197141db658e5195ead9fc
+    bytes   : 2,004
+
 debian  less                     668-1
     licence : copyleft named in the copyright file
     images  : db
@@ -5894,6 +6712,190 @@ debian  less                     668-1
     verified: sha1, against the publisher's own checksum
     sha256  : 83e659f43c11ee8591685744cd71e6b99e8cb430224649ac98557068d881e4ce
     bytes   : 22,332
+
+debian  libassuan                3.0.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libassuan_3.0.2-2/libassuan_3.0.2-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 05566fa4ac35ad6af7214ce01beeaffcc2ce1c13d20daac4cf86949c5fad25fc
+    bytes   : 17,536
+
+debian  libassuan                3.0.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libassuan_3.0.2-2/libassuan_3.0.2.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6
+    bytes   : 593,917
+
+debian  libassuan                3.0.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libassuan_3.0.2-2/libassuan_3.0.2-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4c6b68814cef421d1768628b401a62176c579dc8e1e3026348d7ec159943f0c7
+    bytes   : 2,682
+
+debian  libassuan                3.0.2-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libassuan_3.0.2-2/libassuan_3.0.2.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3799b287fd7d48f750597bd9104621d2cbafd508de83303b1a5f5eef08f06072
+    bytes   : 228
+
+debian  libcap-ng                0.8.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap-ng_0.8.3-1/libcap-ng_0.8.3-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 710577902c260f50f8cfc9d7e264131f880eab0581d12ceab17ebe48e2ac53c6
+    bytes   : 10,488
+
+debian  libcap-ng                0.8.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap-ng_0.8.3-1/libcap-ng_0.8.3-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1bf38dbc0c30bcbc776d2d5c25e31d89202de0858f9ca9379c993d55103d7ef0
+    bytes   : 1,634
+
+debian  libcap-ng                0.8.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap-ng_0.8.3-1/libcap-ng_0.8.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bed6f6848e22bb2f83b5f764b2aef0ed393054e803a8e3a8711cb2a39e6b492d
+    bytes   : 455,383
+
+debian  libcap-ng                0.8.5-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap-ng_0.8.5-4/libcap-ng_0.8.5.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e4be07fdd234f10b866433f224d183626003c65634ed0552b02e654a380244c2
+    bytes   : 59,265
+
+debian  libcap-ng                0.8.5-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap-ng_0.8.5-4/libcap-ng_0.8.5-4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f5d4e7f38bdbca87de77317ce95f973883081370ef257019b484e29e3368a20d
+    bytes   : 7,816
+
+debian  libcap-ng                0.8.5-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap-ng_0.8.5-4/libcap-ng_0.8.5-4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : a5745b7d68a11068ae5beddcc7fbc94cd87dd81cb2d7495e7d48610603be3526
+    bytes   : 1,710
+
+debian  libcap2                  1:2.66-4+deb12u3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap2_1%3a2.66-4+deb12u3/libcap2_2.66-4+deb12u3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 56b6fa8db84a0e80b48522cbcafb0353282a7dbb5605c81b021e0862b120d1c9
+    bytes   : 2,236
+
+debian  libcap2                  1:2.66-4+deb12u3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap2_1%3a2.66-4+deb12u3/libcap2_2.66-4+deb12u3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 124ec52e286e8617a7fb8e576390abbf60f6674e065504459f32af20817eaa13
+    bytes   : 23,944
+
+debian  libcap2                  1:2.66-4+deb12u3
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libcap2_1%3a2.66-4+deb12u3/libcap2_2.66.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 15c40ededb3003d70a283fe587a36b7d19c8b3b554e33f86129c059a4bb466b2
+    bytes   : 181,592
+
+debian  libcap2                  1:2.75-10+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap2_1%3a2.75-10+deb13u1/libcap2_2.75.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d83632
+    bytes   : 197,868
+
+debian  libcap2                  1:2.75-10+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap2_1%3a2.75-10+deb13u1/libcap2_2.75-10+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d375de2f743f112835fc0eef2a9c305c1109371954cf53e109b7f046fe58c1bc
+    bytes   : 24,628
+
+debian  libcap2                  1:2.75-10+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap2_1%3a2.75-10+deb13u1/libcap2_2.75-10+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : cb6af220de216655ec55bb1f5abf3fa8f03e82c9956f120b313056e895c02ea6
+    bytes   : 2,714
+
+debian  libcap2                  1:2.75-10+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libcap2_1%3a2.75-10+deb13u1/libcap2_2.75.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c71b593e7c3160fd7f406641074d93462bbc4906c9243937a0e232f42d5c54d2
+    bytes   : 833
+
+debian  libdatrie                0.2.13-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libdatrie_0.2.13-3/libdatrie_0.2.13-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e656d536beb5db9e52ef92dd1fccd5480ebd21e4eddbfe013c51a1e2ec45cf38
+    bytes   : 9,668
+
+debian  libdatrie                0.2.13-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libdatrie_0.2.13-3/libdatrie_0.2.13-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6ddcaf319da01cc044f9b335b6b01b608a0380ccdaecb06bda71710b6f4395bb
+    bytes   : 2,236
+
+debian  libdatrie                0.2.13-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libdatrie_0.2.13-3/libdatrie_0.2.13.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 12231bb2be2581a7f0fb9904092d24b0ed2a271a16835071ed97bed65267f4be
+    bytes   : 314,072
+
+debian  libde265                 1.0.15-1+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libde265_1.0.15-1+deb13u2/libde265_1.0.15-1+deb13u2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 108b5d4d71243554110e2899e20d3f409c8368573bfddc98473eb1637b902ba9
+    bytes   : 145,468
+
+debian  libde265                 1.0.15-1+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libde265_1.0.15-1+deb13u2/libde265_1.0.15.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 00251986c29d34d3af7117ed05874950c875dd9292d016be29d3b3762666511d
+    bytes   : 846,016
+
+debian  libde265                 1.0.15-1+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libde265_1.0.15-1+deb13u2/libde265_1.0.15-1+deb13u2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d85412b00d6e52e12ca5ecb5003dfd3cd48da5f26a0f7a8ee63336289ecf6393
+    bytes   : 2,249
 
 debian  liberror-perl            0.17030-1
     licence : copyleft named in the copyright file
@@ -5951,6 +6953,294 @@ debian  libevent                 2.1.13-stable-1~deb13u1
     sha256  : f7e9383b8c0baa81b687e5b5eecc01beefaf1b19b64151d95ed61647fe7a315c
     bytes   : 1,126,525
 
+debian  libexif                  0.6.25-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libexif_0.6.25-1+deb13u1/libexif_0.6.25.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ee0795432c20d2fdb2a8a579dd6fc0e19d402e36f14f42c03ab60d2345950f09
+    bytes   : 1,253,324
+
+debian  libexif                  0.6.25-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libexif_0.6.25-1+deb13u1/libexif_0.6.25-1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 807f8e0e2da5182d824808aa5a22e24c032be58ed951b23539d1c2aebb86b319
+    bytes   : 2,127
+
+debian  libexif                  0.6.25-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libexif_0.6.25-1+deb13u1/libexif_0.6.25-1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ad1b1a2555cc911f8e04a601f2edeb4987f71846c6c9e827d52d460ff4a4bccf
+    bytes   : 13,744
+
+debian  libffi                   3.4.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libffi_3.4.4-1/libffi_3.4.4-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 161b210bfd2ada0b15b0d2a2a98ffc779cd4a68661a7fdf46f61732493db0895
+    bytes   : 10,380
+
+debian  libffi                   3.4.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libffi_3.4.4-1/libffi_3.4.4-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 21c9ef156b6766535cb014e0765142c8104ffbcd73f003ecfa80cfb314baa4f0
+    bytes   : 1,951
+
+debian  libffi                   3.4.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libffi_3.4.4-1/libffi_3.4.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676
+    bytes   : 1,362,394
+
+debian  libffi                   3.4.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libffi_3.4.8-2/libffi_3.4.8-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f23ac79a19895ebb6bbb539263d0d945ebc2d3e91217a597f5819777f08b401c
+    bytes   : 11,220
+
+debian  libffi                   3.4.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libffi_3.4.8-2/libffi_3.4.8.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : cbb7f0b3b095dc506387ec1e35b891bfb4891d05b90a495bc69a10f2293f80ff
+    bytes   : 595,051
+
+debian  libffi                   3.4.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libffi_3.4.8-2/libffi_3.4.8-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4424defe3f37c0084f062e03330b2ba3d3f927367c33be455cfacf7f85a78161
+    bytes   : 1,948
+
+debian  libgcrypt20              1.10.1-3+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgcrypt20_1.10.1-3+deb12u1/libgcrypt20_1.10.1-3+deb12u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1bd12e7e03f5c60177a65ba4b838466033eaeca191111c570d444104d0d6e6d3
+    bytes   : 2,975
+
+debian  libgcrypt20              1.10.1-3+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgcrypt20_1.10.1-3+deb12u1/libgcrypt20_1.10.1.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9da6ae5e8b1c253607be7e951b568932740c143ee519f6b3392ece8211e84e33
+    bytes   : 228
+
+debian  libgcrypt20              1.10.1-3+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgcrypt20_1.10.1-3+deb12u1/libgcrypt20_1.10.1-3+deb12u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : a827828973467fe4469729c51124a2b8a8682911369840f66842816190bd7e6c
+    bytes   : 41,076
+
+debian  libgcrypt20              1.10.1-3+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgcrypt20_1.10.1-3+deb12u1/libgcrypt20_1.10.1.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : ef14ae546b0084cd84259f61a55e07a38c3b53afc0f546bffcef2f01baffe9de
+    bytes   : 3,778,457
+
+debian  libgcrypt20              1.11.0-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgcrypt20_1.11.0-7+deb13u1/libgcrypt20_1.11.0-7+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 08deb210f65066655791c8d2f1b1a40907abce6e0e0e07e6d2942426c5b4f3b8
+    bytes   : 40,944
+
+debian  libgcrypt20              1.11.0-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgcrypt20_1.11.0-7+deb13u1/libgcrypt20_1.11.0.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9fedf4f7bb80d5178d4e26ec2f03ba5fc44eddfc72c2e9966d7d619aeee3df2c
+    bytes   : 228
+
+debian  libgcrypt20              1.11.0-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgcrypt20_1.11.0-7+deb13u1/libgcrypt20_1.11.0.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : 09120c9867ce7f2081d6aaa1775386b98c2f2f246135761aae47d81f58685b9c
+    bytes   : 4,180,345
+
+debian  libgcrypt20              1.11.0-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgcrypt20_1.11.0-7+deb13u1/libgcrypt20_1.11.0-7+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 727fae4a95bafe8b2094f75d880d3c63f8066865cb552422492cafd675887c80
+    bytes   : 3,149
+
+debian  libgpg-error             1.46-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgpg-error_1.46-1/libgpg-error_1.46-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : f1fe4ca2f252f797c2819b0eae1e284e2f0b2c7ac8ec16209054ae45878aaafe
+    bytes   : 2,273
+
+debian  libgpg-error             1.46-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgpg-error_1.46-1/libgpg-error_1.46.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : e0eb40e705068858ee43b6462b204aacf5a554fe4a17cfe63ea99e9612f72e9d
+    bytes   : 228
+
+debian  libgpg-error             1.46-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgpg-error_1.46-1/libgpg-error_1.46-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2f80416e16dead749fb6a31a0a3703ae9e562bd32fc4d72184636a1501cd86ef
+    bytes   : 18,532
+
+debian  libgpg-error             1.46-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libgpg-error_1.46-1/libgpg-error_1.46.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : b7e11a64246bbe5ef37748de43b245abd72cfcd53c9ae5e7fc5ca59f1c81268d
+    bytes   : 1,014,291
+
+debian  libgpg-error             1.51-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgpg-error_1.51-4/libgpg-error_1.51.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : be0f1b2db6b93eed55369cdf79f19f72750c8c7c39fc20b577e724545427e6b2
+    bytes   : 1,085,510
+
+debian  libgpg-error             1.51-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgpg-error_1.51-4/libgpg-error_1.51.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5e8c9179635b3105f4c07d09168fda9ce039607e926628aec6a06134908be918
+    bytes   : 228
+
+debian  libgpg-error             1.51-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgpg-error_1.51-4/libgpg-error_1.51-4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : fecb803e22016cbf46b7c0a0d5c23f8a45a2f70fa10d3b3b67b10be917987410
+    bytes   : 2,956
+
+debian  libgpg-error             1.51-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libgpg-error_1.51-4/libgpg-error_1.51-4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9d1edd110f540c9f7163035f352836dd968ca38977f31adb073b99b9a05f8c4d
+    bytes   : 22,332
+
+debian  libheif                  1.23.4-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libheif_1.23.4-1~deb13u1/libheif_1.23.4-1~deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5102677f6e7e98b9b80d19e7579617ae07fe56199e9c9ce91ce59c1e7a6e24aa
+    bytes   : 15,552
+
+debian  libheif                  1.23.4-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libheif_1.23.4-1~deb13u1/libheif_1.23.4-1~deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6bf7fbd3de53ba819c770f07946e20123ed460f3d8eabe579f22218c96bf82c1
+    bytes   : 3,377
+
+debian  libheif                  1.23.4-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libheif_1.23.4-1~deb13u1/libheif_1.23.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d0c02b4b0e978f34a1974b6f3eea7975a537bf7a9195ffeea38e7242ff316fdd
+    bytes   : 2,217,221
+
+debian  libidn2                  2.3.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libidn2_2.3.3-1/libidn2_2.3.3.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : e8f2bdce5def6c239c2cc3220e808b19b14d3f7eb3a0e14851dd5c16fc9ad0ec
+    bytes   : 228
+
+debian  libidn2                  2.3.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libidn2_2.3.3-1/libidn2_2.3.3-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 13865e96a0fed8dcb82767db65c946b56ed44fc1806d80d407c512ded2a83984
+    bytes   : 2,206
+
+debian  libidn2                  2.3.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libidn2_2.3.3-1/libidn2_2.3.3-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b040c12276e1128394c2f84c97f7e45f340867fa9d0d0a0b9d8f043b1977db99
+    bytes   : 15,964
+
+debian  libidn2                  2.3.3-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libidn2_2.3.3-1/libidn2_2.3.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f3ac987522c00d33d44b323cae424e2cffcb4c63c6aa6cd1376edacbf1c36eb0
+    bytes   : 2,116,946
+
+debian  libidn2                  2.3.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libidn2_2.3.8-2/libidn2_2.3.8.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : bbad1678d35d28e2c62e6a2577083829461402d9e47b908791c55314a5cb5e04
+    bytes   : 718,637
+
+debian  libidn2                  2.3.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libidn2_2.3.8-2/libidn2_2.3.8.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8995cab7db361d9d6989eab26d9b521c74236960a5d78250121c8d369b013bd8
+    bytes   : 1,223
+
+debian  libidn2                  2.3.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libidn2_2.3.8-2/libidn2_2.3.8-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ab95c2bab110557505ba437bc162f67a5a85fa9d8a2e55501245dc7f0fe2e412
+    bytes   : 17,532
+
+debian  libidn2                  2.3.8-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libidn2_2.3.8-2/libidn2_2.3.8-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : af3327227dbbf12fff281f71b7feb90371d2dbe597f3129e38b93c3faadcea61
+    bytes   : 2,961
+
 debian  libjson-perl             4.10000-1
     licence : copyleft named in the copyright file
     images  : db
@@ -5974,6 +7264,286 @@ debian  libjson-perl             4.10000-1
     verified: sha1, against the publisher's own checksum
     sha256  : 7759c7cc963ae03bd6042dff53fc246843c68097be5a1e264bd810adf9f65b3e
     bytes   : 2,495
+
+debian  libksba                  1.6.7-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libksba_1.6.7-2/libksba_1.6.7-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 28f0ef1f9dd2a7f1cef23e49393d750d50aade01476462d8d5225a23e4ad9929
+    bytes   : 14,872
+
+debian  libksba                  1.6.7-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libksba_1.6.7-2/libksba_1.6.7.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : cf72510b8ebb4eb6693eef765749d83677a03c79291a311040a5bfd79baab763
+    bytes   : 706,437
+
+debian  libksba                  1.6.7-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libksba_1.6.7-2/libksba_1.6.7-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 47f8b314c6b74fdcfb42390327dc0441c6ba6bfdb4511ca12e2b4478fc452e1c
+    bytes   : 2,482
+
+debian  libksba                  1.6.7-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libksba_1.6.7-2/libksba_1.6.7.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : cd704f8100151752b12776fa87dac42a3f99334ed155bcbcbaeda8e786581316
+    bytes   : 228
+
+debian  liblqr                   0.4.2-2.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/liblqr_0.4.2-2.1/liblqr_0.4.2-2.1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 284a002f1ecac63ac17b1aafbb230da9ce7bd9efe2d5b94e8cad49b607eb2564
+    bytes   : 5,300
+
+debian  liblqr                   0.4.2-2.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/liblqr_0.4.2-2.1/liblqr_0.4.2.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d4c22373432cca749e4326cd41fce365e6ff857c0bfd7a5302b8eb34b69f0336
+    bytes   : 439,884
+
+debian  liblqr                   0.4.2-2.1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/liblqr_0.4.2-2.1/liblqr_0.4.2-2.1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c54c34cd2f7470a29366eeacde2ca4859a97d684a406fb81a918b970c01d617c
+    bytes   : 2,095
+
+debian  libmaxminddb             1.12.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libmaxminddb_1.12.2-1/libmaxminddb_1.12.2-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 39e24b93cdebcb869fc0b45020ff86b0a318ac463fcbcb33f0ea3f12d7bb091a
+    bytes   : 6,912
+
+debian  libmaxminddb             1.12.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libmaxminddb_1.12.2-1/libmaxminddb_1.12.2.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c0b20260a54cf4cebd3b879ac8e487cf2eac218fe6a5f64f1e2c3032b564fdd8
+    bytes   : 369,848
+
+debian  libmaxminddb             1.12.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libmaxminddb_1.12.2-1/libmaxminddb_1.12.2-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : eff18dd8d9b1f191c206faa166acae9224453dc9a18e03f65b24f65b0d456f69
+    bytes   : 2,235
+
+debian  libpng1.6                1.6.48-1+deb13u6
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libpng1.6_1.6.48-1+deb13u6/libpng1.6_1.6.48-1+deb13u6.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 26a8f1c2bed971ad68d3549b7cd9b517e8f2ed2f23f75a7ac348452e25c87133
+    bytes   : 53,284
+
+debian  libpng1.6                1.6.48-1+deb13u6
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libpng1.6_1.6.48-1+deb13u6/libpng1.6_1.6.48.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b17e99026055727e8cba99160c3a9a7f9af788e9f786daeadded5a42243f1dd0
+    bytes   : 1,572,923
+
+debian  libpng1.6                1.6.48-1+deb13u6
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libpng1.6_1.6.48-1+deb13u6/libpng1.6_1.6.48-1+deb13u6.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6eb8e2cb5d3fdaf0b2381058906d0003c1667295eb4b965c9c653336e61872ae
+    bytes   : 2,286
+
+debian  libraw                   0.21.4-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libraw_0.21.4-2+deb13u1/libraw_0.21.4-2+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d03f78115e0223fc7cf27bc3473808b5249dad29270c455bcde49e551f5a2a0d
+    bytes   : 2,219
+
+debian  libraw                   0.21.4-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libraw_0.21.4-2+deb13u1/libraw_0.21.4-2+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3ed25dc1ae9cd3e244c53d185dd2eaa547cbc6c25cb926b6be97c546847463fc
+    bytes   : 31,200
+
+debian  libraw                   0.21.4-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/libraw_0.21.4-2+deb13u1/libraw_0.21.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8baeb5253c746441fadad62e9c5c43ff4e414e41b0c45d6dcabccb542b2dff4b
+    bytes   : 566,327
+
+debian  librsvg                  2.60.0+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/librsvg_2.60.0+dfsg-1+deb13u1/librsvg_2.60.0+dfsg-1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1653a531d1e0374318197cc008c3b9a4286d5e178d34c52a38f2b867d4f56fc2
+    bytes   : 3,089
+
+debian  librsvg                  2.60.0+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/librsvg_2.60.0+dfsg-1+deb13u1/librsvg_2.60.0+dfsg-1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8ba361c954a3337a0257ce46960bfc874c99912381b9342a475db6c6422203bf
+    bytes   : 10,833,628
+
+debian  librsvg                  2.60.0+dfsg-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/librsvg_2.60.0+dfsg-1+deb13u1/librsvg_2.60.0+dfsg.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1b9f126ad3115e4126c682f3011023a05dcf19a69e5e878fbffb420ade671b81
+    bytes   : 6,735,208
+
+debian  libseccomp               2.5.4-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libseccomp_2.5.4-1+deb12u1/libseccomp_2.5.4-1+deb12u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 665fc6ad1b9887207b0af1a293a2d7975e2df503a2618d1808b970081f9672f6
+    bytes   : 18,080
+
+debian  libseccomp               2.5.4-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libseccomp_2.5.4-1+deb12u1/libseccomp_2.5.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d82902400405cf0068574ef3dc1fe5f5926207543ba1ae6f8e7a1576351dcbdb
+    bytes   : 637,228
+
+debian  libseccomp               2.5.4-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libseccomp_2.5.4-1+deb12u1/libseccomp_2.5.4.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : af37e70eb422e6f983c1f135a3abb342c3b787716520b71bd774e4906003807f
+    bytes   : 833
+
+debian  libseccomp               2.5.4-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libseccomp_2.5.4-1+deb12u1/libseccomp_2.5.4-1+deb12u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0ab1448c7206ee928f97a24d04300cfd3bb26babb4238c82fb71f507b5148595
+    bytes   : 2,708
+
+debian  libseccomp               2.6.0-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libseccomp_2.6.0-2/libseccomp_2.6.0-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ed705ec85719403e77d004c99c0b06b795f090c66fcae265c4bcf37ffea9cc27
+    bytes   : 20,800
+
+debian  libseccomp               2.6.0-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libseccomp_2.6.0-2/libseccomp_2.6.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 83b6085232d1588c379dc9b9cae47bb37407cf262e6e74993c61ba72d2a784dc
+    bytes   : 685,655
+
+debian  libseccomp               2.6.0-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libseccomp_2.6.0-2/libseccomp_2.6.0-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d05f94536558d34fa339326c6f958a3357b51efac8234470b5d97b69472db765
+    bytes   : 2,622
+
+debian  libseccomp               2.6.0-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libseccomp_2.6.0-2/libseccomp_2.6.0.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 52e338fa958128293cbd25d2be189e34da41c4f4abbb1b641cf58f373c001f94
+    bytes   : 833
+
+debian  libselinux               3.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libselinux_3.4-1/libselinux_3.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 77c294a927e6795c2e98f74b5c3adde9c8839690e9255b767c5fca6acff9b779
+    bytes   : 210,061
+
+debian  libselinux               3.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libselinux_3.4-1/libselinux_3.4-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 046ace4ad0092104bdfb0c6e5187131910216c89b8b81a4bce3c2067615c9196
+    bytes   : 29,416
+
+debian  libselinux               3.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libselinux_3.4-1/libselinux_3.4.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5c370bdef7b756697445e6838ba1b2d934f668b244461e36e245f589ec994a24
+    bytes   : 833
+
+debian  libselinux               3.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libselinux_3.4-1/libselinux_3.4-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4035af53388d343f9b5c46ca2867ba32823cf4a2d218ddd590b34ae59c899157
+    bytes   : 2,534
+
+debian  libselinux               3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libselinux_3.8.1-1/libselinux_3.8.1-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1af25952374f083cf3d6d0edd5beb938f2e53c30eb404afa1e32fcd1cb127db7
+    bytes   : 37,812
+
+debian  libselinux               3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libselinux_3.8.1-1/libselinux_3.8.1-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : e430b782a396e266f86c32fa779efadebfd40e6a0d10ddbd786fc47905f723b9
+    bytes   : 3,013
+
+debian  libselinux               3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libselinux_3.8.1-1/libselinux_3.8.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ec2d2789f931152d21c1db1eb4bc202ce4eccede34d9be9e360e3b45243cee2c
+    bytes   : 204,411
+
+debian  libselinux               3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libselinux_3.8.1-1/libselinux_3.8.1.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7f983714a780d89f7677e7ba140ce29974022b8ba225f60246b6c33de1477dd6
+    bytes   : 833
 
 debian  libsemanage              3.4-1
     licence : copyleft named in the copyright file
@@ -6038,6 +7608,158 @@ debian  libsemanage              3.8.1-1
     verified: sha1, against the publisher's own checksum
     sha256  : 6d1e5bd4d06bbd25ced1b75fba394c3e2157bd604cf1cd33fb581793d70bd7b8
     bytes   : 37,572
+
+debian  libsepol                 3.4-2.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libsepol_3.4-2.1/libsepol_3.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : fc277ac5b52d59d2cd81eec8b1cccd450301d8b54d9dd48a993aea0577cf0336
+    bytes   : 490,628
+
+debian  libsepol                 3.4-2.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libsepol_3.4-2.1/libsepol_3.4-2.1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 465877b26b9f0a3d71999691686a08bdd656ce354889e2cde9eba463306ce4ed
+    bytes   : 2,334
+
+debian  libsepol                 3.4-2.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libsepol_3.4-2.1/libsepol_3.4-2.1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 98829ceaf6d497a7e9ff7750c261fdc48cdb41ee5258c437eb3b6a271bc3aeba
+    bytes   : 22,040
+
+debian  libsepol                 3.4-2.1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libsepol_3.4-2.1/libsepol_3.4.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : ed127c08353dbc2c442d47d77e323e79e5bd47791a0a5bd4dfd077868f4346bc
+    bytes   : 833
+
+debian  libsepol                 3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libsepol_3.8.1-1/libsepol_3.8.1.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 183f6cf96054986704d4224f89518e9139370385c43a533078f45ca688dca8b6
+    bytes   : 833
+
+debian  libsepol                 3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libsepol_3.8.1-1/libsepol_3.8.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0e78705305f955abd4c0654d37a5477ee26349ab74db9e2b03a7868897ae1ddf
+    bytes   : 513,830
+
+debian  libsepol                 3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libsepol_3.8.1-1/libsepol_3.8.1-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7aac515a941f8dd19581b16c664b3098962e6a8ed7fa0afdafd306a85c667619
+    bytes   : 21,432
+
+debian  libsepol                 3.8.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libsepol_3.8.1-1/libsepol_3.8.1-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0351ffc8c3f66918c9e4ecae9244ae2af27857d8795e424e384ddda794718c34
+    bytes   : 2,347
+
+debian  libtasn1-6               4.19.0-2+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libtasn1-6_4.19.0-2+deb12u1/libtasn1-6_4.19.0.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8410c0c004f3509c218a98b276b3308b9c46f48068e8b1a6d9ebfd61ea9f357a
+    bytes   : 228
+
+debian  libtasn1-6               4.19.0-2+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libtasn1-6_4.19.0-2+deb12u1/libtasn1-6_4.19.0-2+deb12u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 878db2aeeb04e43a70750480a4f17498b7ed46fb5fe433acb6721b3e6d38088c
+    bytes   : 24,876
+
+debian  libtasn1-6               4.19.0-2+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libtasn1-6_4.19.0-2+deb12u1/libtasn1-6_4.19.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1613f0ac1cf484d6ec0ce3b8c06d56263cc7242f1c23b30d82d23de345a63f7a
+    bytes   : 1,786,576
+
+debian  libtasn1-6               4.19.0-2+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libtasn1-6_4.19.0-2+deb12u1/libtasn1-6_4.19.0-2+deb12u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 54eabe8526f590a52771d99ce8c592d3edd549e98d84ea6649db473d528cc6ec
+    bytes   : 2,694
+
+debian  libtasn1-6               4.20.0-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtasn1-6_4.20.0-2+deb13u1/libtasn1-6_4.20.0-2+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3f8b0e7ddd5325278b1164f260e45e785e5907309d76b703c8716d068f9cd7e9
+    bytes   : 2,697
+
+debian  libtasn1-6               4.20.0-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtasn1-6_4.20.0-2+deb13u1/libtasn1-6_4.20.0.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0faa628b6a3e4bb84ca5f00f127c6dfa1fc96a7ad88030dd7aa048753cf4b201
+    bytes   : 1,223
+
+debian  libtasn1-6               4.20.0-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtasn1-6_4.20.0-2+deb13u1/libtasn1-6_4.20.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 92e0e3bd4c02d4aeee76036b2ddd83f0c732ba4cda5cb71d583272b23587a76c
+    bytes   : 1,783,873
+
+debian  libtasn1-6               4.20.0-2+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtasn1-6_4.20.0-2+deb13u1/libtasn1-6_4.20.0-2+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c1ba650436b6a9fc5fac5ea494ab20caf7adb29a3713067e8b665d2f2f325cb1
+    bytes   : 19,196
+
+debian  libtext-charwidth-perl   0.04-11
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtext-charwidth-perl_0.04-11/libtext-charwidth-perl_0.04-11.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2590d0b6ee7b9cea5396debb96190077210874b4847e844f9eb0d8a4d87ba19c
+    bytes   : 3,016
+
+debian  libtext-charwidth-perl   0.04-11
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtext-charwidth-perl_0.04-11/libtext-charwidth-perl_0.04.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2990c13c3f4a5479d7dbc5a94b86c23798cf0dc7df54ffe54e065f072558b6ed
+    bytes   : 8,327
+
+debian  libtext-charwidth-perl   0.04-11
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libtext-charwidth-perl_0.04-11/libtext-charwidth-perl_0.04-11.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8a4f6e7a44880f8b4dd8f3dc0c97a39c6fef979f99899de4962c9ccfe84a2577
+    bytes   : 2,162
 
 debian  libtext-wrapi18n-perl    0.06-10
     licence : copyleft named in the copyright file
@@ -6111,6 +7833,70 @@ debian  libtool                  2.5.4-4
     sha256  : 37d98d7c45d1c12c0b7bd55fb6a90fa05aff8aa9ab2bbd9617ce7a6233b1965e
     bytes   : 2,232
 
+debian  libunistring             1.0-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libunistring_1.0-2/libunistring_1.0-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e550d94935cd06eafb0defd7b5d7c914c7bb80a8e818a49efcf7675206572450
+    bytes   : 14,520
+
+debian  libunistring             1.0-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libunistring_1.0-2/libunistring_1.0-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9b9a9d9d4cd1c2118df8cf5ca0dfb787d89afcd99400d7cd01b4c4e9b0bc1ae5
+    bytes   : 2,181
+
+debian  libunistring             1.0-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libunistring_1.0-2/libunistring_1.0.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c1c2ae60eb971593da92e65384a5f1b181717e7b9654854f139f350c6cbe235d
+    bytes   : 833
+
+debian  libunistring             1.0-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libunistring_1.0-2/libunistring_1.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5bab55b49f75d77ed26b257997e919b693f29fd4a1bc22e0e6e024c246c72741
+    bytes   : 2,367,800
+
+debian  libunistring             1.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libunistring_1.3-2/libunistring_1.3-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : feaf9761d365430178ea46feefeb602b435c21acf5924918e2257238e0378fc9
+    bytes   : 28,480
+
+debian  libunistring             1.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libunistring_1.3-2/libunistring_1.3.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f245786c831d25150f3dfb4317cda1acc5e3f79a5da4ad073ddca58886569527
+    bytes   : 2,753,448
+
+debian  libunistring             1.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libunistring_1.3-2/libunistring_1.3.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 62201b5b7ce9c0b033c50cefa5d7769dff4b7cee8205572e0cf917653cae9e33
+    bytes   : 833
+
+debian  libunistring             1.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libunistring_1.3-2/libunistring_1.3-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0c09938cace7fbbf36c73af8bc2243fd2f70d3fe336539e8d4c10d0e61742571
+    bytes   : 2,215
+
 debian  libwmf                   0.2.13-1.1
     licence : copyleft named in the copyright file
     images  : be
@@ -6134,6 +7920,86 @@ debian  libwmf                   0.2.13-1.1
     verified: sha1, against the publisher's own checksum
     sha256  : 18ba69febd2f515d98a2352de284a8051896062ac9728d2ead07bc39ea75a068
     bytes   : 3,044,235
+
+debian  libxcrypt                1:4.4.33-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libxcrypt_1%3a4.4.33-2/libxcrypt_4.4.33-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 910ae411c9462f07667e46540af3dbb30f46413ddd90f1f176781666042dbb38
+    bytes   : 1,591
+
+debian  libxcrypt                1:4.4.33-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libxcrypt_1%3a4.4.33-2/libxcrypt_4.4.33-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 23194c9b0642533fb27fe8c33391d3fa838a55e17e5a88a419ed31548b0721c9
+    bytes   : 8,196
+
+debian  libxcrypt                1:4.4.33-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libxcrypt_1%3a4.4.33-2/libxcrypt_4.4.33.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5e2da5cb5f263e9ac4c4b3f49c75e3b8523889210f45c60bb7e97b229c75a10b
+    bytes   : 393,372
+
+debian  libxcrypt                1:4.4.38-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libxcrypt_1%3a4.4.38-1/libxcrypt_4.4.38.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6a275a356622c64ba9f693892215dbb399c003a7a4afeed9c4c74070eaab20f4
+    bytes   : 394,216
+
+debian  libxcrypt                1:4.4.38-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libxcrypt_1%3a4.4.38-1/libxcrypt_4.4.38-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : feba1874a84616791c1c17f9a290c9e97562b2904b3b0200edc82a2db54f3f07
+    bytes   : 1,573
+
+debian  libxcrypt                1:4.4.38-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/libxcrypt_1%3a4.4.38-1/libxcrypt_4.4.38-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 6b87bcb5325e417ab3f4c01c364233444b4c9008a69ec1d6fababb3f6e693a5e
+    bytes   : 8,512
+
+debian  libzstd                  1.5.4+dfsg2-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libzstd_1.5.4+dfsg2-5/libzstd_1.5.4+dfsg2.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8cf4bbb65e77ec348d052c8d6230eba66d435bddf64c8b5be2fcb16880c19953
+    bytes   : 1,582,660
+
+debian  libzstd                  1.5.4+dfsg2-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libzstd_1.5.4+dfsg2-5/libzstd_1.5.4+dfsg2-5.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 82ce911445772861d0838bd4545f93bc50658bc7f3cefdb17a307dfb8ffca5d8
+    bytes   : 216,092
+
+debian  libzstd                  1.5.4+dfsg2-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libzstd_1.5.4+dfsg2-5/libzstd_1.5.4+dfsg2-5.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8f602f92b575aa8b5e979196fb6ee82d78f233521dc9636526d3ecba1f63c1b1
+    bytes   : 2,589
+
+debian  libzstd                  1.5.4+dfsg2-5
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/libzstd_1.5.4+dfsg2-5/libzstd_1.5.4+dfsg2.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : be007507630aabfc7d88d5d3c467115935ca22025253491d525e0119bbb23d40
+    bytes   : 833
 
 debian  libzstd                  1.5.7+dfsg-1
     licence : copyleft named in the copyright file
@@ -6182,6 +8048,78 @@ debian  linux                    6.12.113-1
     verified: sha1, against the publisher's own checksum
     sha256  : 7785e2db803dc74912f2dd4861eb454404cf3b9a2c2120f0cc3efda1f2337fa6
     bytes   : 290,418
+
+debian  lz4                      1.10.0-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/lz4_1.10.0-4/lz4_1.10.0-4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8d276c3254182c2c9cf319b9a6504cf257c56b441f37d3db8ad97d33d46a0911
+    bytes   : 8,080
+
+debian  lz4                      1.10.0-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/lz4_1.10.0-4/lz4_1.10.0-4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 394c635aa75a21cd5896680e48821c05336645072ae866b2717d53f36b9ba851
+    bytes   : 1,941
+
+debian  lz4                      1.10.0-4
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/lz4_1.10.0-4/lz4_1.10.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b
+    bytes   : 387,114
+
+debian  lz4                      1.9.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/lz4_1.9.4-1/lz4_1.9.4.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0b0e3aa07c8c063ddf40b082bdf7e37a1562bda40a0ff5272957f3e987e0e54b
+    bytes   : 354,063
+
+debian  lz4                      1.9.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/lz4_1.9.4-1/lz4_1.9.4-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 47ceec5b95f42598f7b9280b03df9659f2ee6852720ec181488e83bd643f0e5f
+    bytes   : 8,128
+
+debian  lz4                      1.9.4-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/lz4_1.9.4-1/lz4_1.9.4-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : e16302bca544d08d106efc216541f4a0403c8f8a5fad5eaac7588223a55af263
+    bytes   : 1,951
+
+debian  lzo2                     2.10-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lzo2_2.10-3/lzo2_2.10-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d3efa3ce5107bafda50ca2769e4ad896a34f7ed0b70600c1d986d6937898786c
+    bytes   : 1,923
+
+debian  lzo2                     2.10-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lzo2_2.10-3/lzo2_2.10.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072
+    bytes   : 600,622
+
+debian  lzo2                     2.10-3
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/lzo2_2.10-3/lzo2_2.10-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : cf18b57e9a0a5c5f816facd5905e5c8dce0f99d2598b8416dab46b0064ba2cd2
+    bytes   : 7,228
 
 debian  m4                       1.4.19-8
     licence : copyleft named in the copyright file
@@ -6359,6 +8297,54 @@ debian  mercurial                7.0.1-2
     sha256  : 0f4cde42ec6c15f7ff93d421e7a842fdb30ee7951b1dbc4aacaac06eac764b48
     bytes   : 8,981,165
 
+debian  mpclib3                  1.3.1-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpclib3_1.3.1-1/mpclib3_1.3.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : ab642492f5cf882b74aa0cb730cd410a81edcdbec895183ce930e706c1c759b8
+    bytes   : 773,573
+
+debian  mpclib3                  1.3.1-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpclib3_1.3.1-1/mpclib3_1.3.1-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : b2252a499fd0f8e92ce2cf7d8e68477ffc9dd06127803a91f0a1115822efec75
+    bytes   : 1,877
+
+debian  mpclib3                  1.3.1-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpclib3_1.3.1-1/mpclib3_1.3.1-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 25adb496258adacad69c022d712f96fbc465bcef9fd4751829dc351d9ce6a45d
+    bytes   : 4,656
+
+debian  mpfr4                    4.2.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpfr4_4.2.2-1/mpfr4_4.2.2-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 08ee7b45f8a9980570508770a9d48f70d4c1962fd7c98af4a78cbc3747002ecd
+    bytes   : 1,960
+
+debian  mpfr4                    4.2.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpfr4_4.2.2-1/mpfr4_4.2.2-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3e203524cdc516a99ec8a676dd9d21435b5f020e624149d39f4c530393d5a563
+    bytes   : 12,564
+
+debian  mpfr4                    4.2.2-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/mpfr4_4.2.2-1/mpfr4_4.2.2.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b67ba0383ef7e8a8563734e2e889ef5ec3c3b898a01d00fa0a6869ad81c6ce01
+    bytes   : 1,505,596
+
 debian  mysql-defaults           1.1.1
     licence : copyleft named in the copyright file
     images  : be
@@ -6390,6 +8376,286 @@ debian  netbase                  6.5
     verified: sha1, against the publisher's own checksum
     sha256  : e8691899f57c06fcc383b0f2214b662137df539227d9d7811dc8223f32ebe4c7
     bytes   : 899
+
+debian  nettle                   3.10.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/nettle_3.10.1-1/nettle_3.10.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b0fcdd7fc0cdea6e80dcf1dd85ba794af0d5b4a57e26397eee3bc193272d9132
+    bytes   : 2,643,267
+
+debian  nettle                   3.10.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/nettle_3.10.1-1/nettle_3.10.1-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7b440850ce04b341363f3f5e23dfb9f96ebf7d52e0ef7ba2d07120c90ca61b3c
+    bytes   : 2,053
+
+debian  nettle                   3.10.1-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/nettle_3.10.1-1/nettle_3.10.1-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2d40d02ddac5985d8833532a17a0ef96cb685ee0547ee9617ec13793b22e34c6
+    bytes   : 25,036
+
+debian  nettle                   3.8.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/nettle_3.8.1-2/nettle_3.8.1-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8f1eae9c6afffe545de294140f33d53352261478268dafee5ef72d840e1b3d7b
+    bytes   : 23,396
+
+debian  nettle                   3.8.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/nettle_3.8.1-2/nettle_3.8.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 364f3e2b77cd7dcde83fd7c45219c834e54b0c75e428b6f894a23d12dd41cbfe
+    bytes   : 2,406,251
+
+debian  nettle                   3.8.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/nettle_3.8.1-2/nettle_3.8.1.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 71fe31c44728fdc144cbf12f30ca5d483992c17fd23afabe58f89d4201f66ddb
+    bytes   : 573
+
+debian  nettle                   3.8.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/nettle_3.8.1-2/nettle_3.8.1-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : a437e204da67612efb656cab354835f358b44c077c5c0a46d6e8c30b5c0bddff
+    bytes   : 2,274
+
+debian  nghttp2                  1.64.0-1.1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp2_1.64.0-1.1+deb13u1/nghttp2_1.64.0-1.1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 11f4603a9f417bc3d195be36cb462bb9df0657f52b72dd9276453a31bc0227c7
+    bytes   : 2,201
+
+debian  nghttp2                  1.64.0-1.1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp2_1.64.0-1.1+deb13u1/nghttp2_1.64.0-1.1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e16478701c5c007aa8761dc30c01090b2217199558bd1017b1d237db463d758c
+    bytes   : 42,120
+
+debian  nghttp2                  1.64.0-1.1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp2_1.64.0-1.1+deb13u1/nghttp2_1.64.0.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b452dc69a1fcbc9375389b8b154175d8b7b125cdd713fc426774c2b79a1ebd77
+    bytes   : 1,069,782
+
+debian  nghttp3                  1.8.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp3_1.8.0-1/nghttp3_1.8.0-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : fc0cfa954de5b8fef85bd13e1edcbfccb463ce211905e925921b608390c840c9
+    bytes   : 8,228
+
+debian  nghttp3                  1.8.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp3_1.8.0-1/nghttp3_1.8.0-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : ffc623e78be62361a82f0a2e7b9a19ff0bcdfc371b8bcc1842039499a12adba2
+    bytes   : 1,603
+
+debian  nghttp3                  1.8.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp3_1.8.0-1/nghttp3_1.8.0.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c2549dd50a5ad392610d108244357c1cc750fd5bf4a5ef91de1d94d11c49b0cf
+    bytes   : 833
+
+debian  nghttp3                  1.8.0-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nghttp3_1.8.0-1/nghttp3_1.8.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : a9dd28970977e6802a3eaf2cfaeae6d0fae60c8d2c0f2c4ce600036a7998ee9a
+    bytes   : 398,640
+
+debian  ngtcp2                   1.11.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/ngtcp2_1.11.0-1+deb13u1/ngtcp2_1.11.0-1+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : f14f724e9031e0565be0d75b8bb3b693887f5111e1901ed32401eb860e3ac004
+    bytes   : 2,609
+
+debian  ngtcp2                   1.11.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/ngtcp2_1.11.0-1+deb13u1/ngtcp2_1.11.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 382c15bf66b630f26021631b25b7eb1feac42c67c1d6826189d61091dfaa4d09
+    bytes   : 652,904
+
+debian  ngtcp2                   1.11.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/ngtcp2_1.11.0-1+deb13u1/ngtcp2_1.11.0.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 56193493ac1e2a05dbf48d7b4480a2590d7fbdb2439475fd7c5087bc31cb988d
+    bytes   : 833
+
+debian  ngtcp2                   1.11.0-1+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/ngtcp2_1.11.0-1+deb13u1/ngtcp2_1.11.0-1+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5d45f3e07ebaf4fff773d6ec32eee78c8514e17bac67dee8e268fa97af440854
+    bytes   : 10,324
+
+debian  npth                     1.8-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/npth_1.8-3/npth_1.8-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4d447cdfdc0034465181f7285ae7d52f4e1b7ca9a60f4fec4effae556d6d5c46
+    bytes   : 2,188
+
+debian  npth                     1.8-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/npth_1.8-3/npth_1.8.orig.tar.bz2
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8bd24b4f23a3065d6e5b26e98aba9ce783ea4fd781069c1b35d149694e90ca3e
+    bytes   : 317,739
+
+debian  npth                     1.8-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/npth_1.8-3/npth_1.8-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : b2ec0499de431042120dd56338f9f7ae600b1cbc00dcb71efe39d62d8960cb73
+    bytes   : 8,668
+
+debian  npth                     1.8-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/npth_1.8-3/npth_1.8.orig.tar.bz2.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1a2bd2f85ad832d5166e616cbf336b072c6bdc20335146c5adccd3e2795a24bc
+    bytes   : 390
+
+debian  nspr                     2:4.36-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nspr_2%3a4.36-1/nspr_4.36-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 0654be27e3cbe2ccc704b293effc12d05c6bbcb2c3da90de5c5ebf53734e6064
+    bytes   : 2,000
+
+debian  nspr                     2:4.36-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nspr_2%3a4.36-1/nspr_4.36.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 55dec317f1401cd2e5dba844d340b930ab7547f818179a4002bce62e6f1c6895
+    bytes   : 1,036,274
+
+debian  nspr                     2:4.36-1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nspr_2%3a4.36-1/nspr_4.36-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f48d96dc446d689aaee085e827d7ef08d5cea850d4eea98080910f378880eeed
+    bytes   : 11,264
+
+debian  nss                      2:3.110-1+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nss_2%3a3.110-1+deb13u4/nss_3.110.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9cd610c40422a07771b9b45166be2d052ea2f00b605a7928129e1f2071b3ae27
+    bytes   : 76,616,684
+
+debian  nss                      2:3.110-1+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nss_2%3a3.110-1+deb13u4/nss_3.110-1+deb13u4.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 45c3eeae75c94da73f8f38630a73fc20673296cd3d689df416a8d4658c1a8d96
+    bytes   : 2,350
+
+debian  nss                      2:3.110-1+deb13u4
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/nss_2%3a3.110-1+deb13u4/nss_3.110-1+deb13u4.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 29d935bca3ea867383004f7e0abfcc92a5e956e8c405e4994631e4a7f92a6062
+    bytes   : 26,148
+
+debian  openldap                 2.6.10+dfsg-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/openldap_2.6.10+dfsg-1/openldap_2.6.10+dfsg-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2dc95ade5655d67c9043e45b5601734fdb7f668267682d087b595a80de24a500
+    bytes   : 170,112
+
+debian  openldap                 2.6.10+dfsg-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/openldap_2.6.10+dfsg-1/openldap_2.6.10+dfsg-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 05cdd431ef995904f094f4464ca78d5d3b2abdbe4eefacd72446ff8443a2ffac
+    bytes   : 3,285
+
+debian  openldap                 2.6.10+dfsg-1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/openldap_2.6.10+dfsg-1/openldap_2.6.10+dfsg.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : e871102bda1e42155fd4d6be4825a297e1c593cb0907b84fc7dde888dc847877
+    bytes   : 3,754,560
+
+debian  openssl                  3.0.20-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/openssl_3.0.20-1~deb12u2/openssl_3.0.20-1~deb12u2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : a614474a2773c23b10c0d65f4eccbcf93fdac4749afb7c26d76e1b0340154d3d
+    bytes   : 2,539
+
+debian  openssl                  3.0.20-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/openssl_3.0.20-1~deb12u2/openssl_3.0.20.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : c80a01dfc70ece4dc21168932c37739042d404d46ccc81a5986dd75314ecda6f
+    bytes   : 15,292,815
+
+debian  openssl                  3.0.20-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/openssl_3.0.20-1~deb12u2/openssl_3.0.20-1~deb12u2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 7279efe85c359500c95aa88347e3395dd303d7566e2bb818d80d96e0c3bb9629
+    bytes   : 72,332
+
+debian  openssl                  3.0.20-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/openssl_3.0.20-1~deb12u2/openssl_3.0.20.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 07669568ab34cf3a4dcf8fd8e0d85cacdacfaa10d5ab51bdc6fc47c22fa6b33a
+    bytes   : 833
 
 debian  openssl                  3.5.6-1~deb13u2
     licence : copyleft named in the copyright file
@@ -6454,6 +8720,70 @@ debian  openssl                  3.5.7-1~deb13u3
     verified: sha1, against the publisher's own checksum
     sha256  : 9cdb0d9daf0773ca5c0f3f5ea1fc59b1106a99e005a5c048948b826e8d3b47e1
     bytes   : 2,710
+
+debian  p11-kit                  0.24.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/p11-kit_0.24.1-2/p11-kit_0.24.1-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : b88a483cb9afd5556ea4ac64d5df4543123a53bf0e50d1c01454887220259a89
+    bytes   : 2,501
+
+debian  p11-kit                  0.24.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/p11-kit_0.24.1-2/p11-kit_0.24.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d8be783efd5cd4ae534cee4132338e3f40f182c3205d23b200094ec85faaaef8
+    bytes   : 838,304
+
+debian  p11-kit                  0.24.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/p11-kit_0.24.1-2/p11-kit_0.24.1-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9a14085b12cfd90e76008c2809e6557224243e1daeae4fbd7fad97e4396f730f
+    bytes   : 23,332
+
+debian  p11-kit                  0.24.1-2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/p11-kit_0.24.1-2/p11-kit_0.24.1.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 48041a234bac05f70519b0d4727e78a129ea80a51baf92c7d419f80b7cbdf0ab
+    bytes   : 833
+
+debian  p11-kit                  0.25.5-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/p11-kit_0.25.5-3/p11-kit_0.25.5-3.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 65e21a68dd942741bba82f5bf20901f616b64de91a976d92a54a0cb314896544
+    bytes   : 2,538
+
+debian  p11-kit                  0.25.5-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/p11-kit_0.25.5-3/p11-kit_0.25.5.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 04d0a86450cdb1be018f26af6699857171a188ac6d5b8c90786a60854e1198e5
+    bytes   : 1,002,056
+
+debian  p11-kit                  0.25.5-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/p11-kit_0.25.5-3/p11-kit_0.25.5.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 066c92b9d2accb2fda6a2f71e676fb6526fcc153051b1f04ee7d7c8c96a09989
+    bytes   : 228
+
+debian  p11-kit                  0.25.5-3
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/p11-kit_0.25.5-3/p11-kit_0.25.5-3.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3800ea81e4615898813f533834ad37ec270f6f7d4c9413c84e712075a197849c
+    bytes   : 24,184
 
 debian  pam                      1.5.2-6+deb12u2
     licence : copyleft named in the copyright file
@@ -6783,6 +9113,30 @@ debian  postgresql-17            17.11-0+deb13u1
     sha256  : 82851f4dfeb372c99b94b412e2e3046a8eee7771098e42ac1fa234bef2611cbd
     bytes   : 37,348
 
+debian  postgresql-18            18.6-1.pgdg13+2
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/postgresql-18_18.6-1.pgdg13+2/postgresql-18_18.6-1.pgdg13+2.dsc
+    verified: no checksum was published for this file
+    sha256  : 9eb326e5888e912ca3270f1481add03f8640e1c97464576b64ec0488000263fc
+    bytes   : 3,596
+
+debian  postgresql-18            18.6-1.pgdg13+2
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/postgresql-18_18.6-1.pgdg13+2/postgresql-18_18.6.orig.tar.bz2
+    verified: sha256, against the publisher's own checksum
+    sha256  : 555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f
+    bytes   : 22,632,314
+
+debian  postgresql-18            18.6-1.pgdg13+2
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/postgresql-18_18.6-1.pgdg13+2/postgresql-18_18.6-1.pgdg13+2.debian.tar.xz
+    verified: sha256, against the publisher's own checksum
+    sha256  : 354c85b8dcc15c17b9f0721260469e8bd7a539507a15c9ef8958d952b466dfae
+    bytes   : 34,240
+
 debian  postgresql-common        293.pgdg13+1
     licence : copyleft named in the copyright file
     images  : db
@@ -6918,6 +9272,30 @@ debian  rpcsvc-proto             1.4.3-1
     verified: sha1, against the publisher's own checksum
     sha256  : 69315e94430f4e79c74d43422f4a36e6259e97e67e2677b2c7d7060436bd99b1
     bytes   : 167,964
+
+debian  rtmpdump                 2.4+20151223.gitfa8646d.1-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/rtmpdump_2.4+20151223.gitfa8646d.1-2/rtmpdump_2.4+20151223.gitfa8646d.1-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : a296819cd2ab5880b67ad963ef0867cb10e462f4403e52565aa863eb05bb1370
+    bytes   : 2,299
+
+debian  rtmpdump                 2.4+20151223.gitfa8646d.1-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/rtmpdump_2.4+20151223.gitfa8646d.1-2/rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5c032f5c8cc2937eb55a81a94effdfed3b0a0304b6376147b86f951e225e3ab5
+    bytes   : 142,213
+
+debian  rtmpdump                 2.4+20151223.gitfa8646d.1-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/rtmpdump_2.4+20151223.gitfa8646d.1-2/rtmpdump_2.4+20151223.gitfa8646d.1-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 26d47de07d16285e4ca55b0828cbbf1ba35e671f9b3500a87e301fe755d26882
+    bytes   : 8,096
 
 debian  rust-sequoia-sq          1.3.1-2
     licence : copyleft named in the copyright file
@@ -7111,6 +9489,70 @@ debian  shared-mime-info         2.4-5
     sha256  : daadcf9aadf96cb45875856d8046f692d1e563bda5687150d993f9deba274a39
     bytes   : 2,237
 
+debian  sqlite3                  3.46.1-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/sqlite3_3.46.1-7+deb13u1/sqlite3_3.46.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d0cdd2ece271b29e7ce18095745d892517ee26d0f270065b3a25c2e9eb11639c
+    bytes   : 8,456,776
+
+debian  sqlite3                  3.46.1-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/sqlite3_3.46.1-7+deb13u1/sqlite3_3.46.1.orig-www.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 648df41a8e532882b1905df45919aae4bafaf74c455f66bc86f1f52f45c8b8f0
+    bytes   : 5,861,820
+
+debian  sqlite3                  3.46.1-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/sqlite3_3.46.1-7+deb13u1/sqlite3_3.46.1-7+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 2f2135b8b9ca37d607422f0f590ab45dc64c17fed71bb019fd1f69894637ce21
+    bytes   : 35,840
+
+debian  sqlite3                  3.46.1-7+deb13u1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/sqlite3_3.46.1-7+deb13u1/sqlite3_3.46.1-7+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : d96b624e3d5319aec6030e31c1047372f06dd23b7c76e18e312b1a0b355b2b52
+    bytes   : 2,673
+
+debian  sqlite3                  3.46.1-7+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sqlite3_3.46.1-7+deb13u2/sqlite3_3.46.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d0cdd2ece271b29e7ce18095745d892517ee26d0f270065b3a25c2e9eb11639c
+    bytes   : 8,456,776
+
+debian  sqlite3                  3.46.1-7+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sqlite3_3.46.1-7+deb13u2/sqlite3_3.46.1.orig-www.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 648df41a8e532882b1905df45919aae4bafaf74c455f66bc86f1f52f45c8b8f0
+    bytes   : 5,861,820
+
+debian  sqlite3                  3.46.1-7+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sqlite3_3.46.1-7+deb13u2/sqlite3_3.46.1-7+deb13u2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 59d33bc436258603702bb051d645743ab03612b82f79e7c7d638c65127c21261
+    bytes   : 37,084
+
+debian  sqlite3                  3.46.1-7+deb13u2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sqlite3_3.46.1-7+deb13u2/sqlite3_3.46.1-7+deb13u2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 46e1eec171e11108fc436e45309b635b601029726b6ffd3bf435bb474e511638
+    bytes   : 2,673
+
 debian  subversion               1.14.5-3
     licence : copyleft named in the copyright file
     images  : be
@@ -7142,6 +9584,78 @@ debian  subversion               1.14.5-3
     verified: sha1, against the publisher's own checksum
     sha256  : 91384669ad9125c6919b0b2ab0c345e6de3cd0f89affe04ab66dfe9c5e19d673
     bytes   : 2,382
+
+debian  sysprof                  48.0-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sysprof_48.0-2/sysprof_48.0.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1b0f0380f2f30708ba87829321a06fee1db36dfa87797bbf07f0a7acf4498d18
+    bytes   : 1,224,264
+
+debian  sysprof                  48.0-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sysprof_48.0-2/sysprof_48.0-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 212e0fb593e6d23ae74ebeca99d73bb9cc5c4bc23607dd384b7e5552a9cd6da6
+    bytes   : 17,728
+
+debian  sysprof                  48.0-2
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/sysprof_48.0-2/sysprof_48.0-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 8e67bfd77ba5d6405dd373625553fedb2d2147aa29268c5639e459727a787e8e
+    bytes   : 3,085
+
+debian  systemd                  252.39-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/systemd_252.39-1~deb12u2/systemd_252.39.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 08a54a6c4d4cf969fc025eaa8922a55d6bc458100c242510b56c96e7d72af1c5
+    bytes   : 12,399,886
+
+debian  systemd                  252.39-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/systemd_252.39-1~deb12u2/systemd_252.39-1~deb12u2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 27c548c678593cbe82e1701fc480bfe56e99b8f8750cbc09e720b6aa4fcbffaf
+    bytes   : 177,476
+
+debian  systemd                  252.39-1~deb12u2
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/systemd_252.39-1~deb12u2/systemd_252.39-1~deb12u2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : f2f952ae61fd40f1ef3ee48c8721e23eaaec5396ef5f1b0c2e138d78fade9c6e
+    bytes   : 6,574
+
+debian  systemd                  257.13-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/systemd_257.13-1~deb13u1/systemd_257.13-1~deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9c6e435d613b996efcdb3b7dd9a4cebaa745333a3f64dc722f3fad646f1fdc1a
+    bytes   : 183,128
+
+debian  systemd                  257.13-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/systemd_257.13-1~deb13u1/systemd_257.13.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1eb7d5f9ff8a426ff880a3cded9ce819613ba8003ac5ddde9eca162f14ddabe7
+    bytes   : 16,543,653
+
+debian  systemd                  257.13-1~deb13u1
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/systemd_257.13-1~deb13u1/systemd_257.13-1~deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 1b3405d671a82d1e20c9d99f52d4336aafe8543b28d04e91b7f1f586d3a667c7
+    bytes   : 8,696
 
 debian  sysvinit                 3.06-4
     licence : copyleft named in the copyright file
@@ -7255,6 +9769,38 @@ debian  ucf                      3.0052
     sha256  : 9117f54533d23ad74371e91c3038e13b1aa0fabd51a382f47a5af81e9b5ee591
     bytes   : 1,512
 
+debian  unbound                  1.26.1-0+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/unbound_1.26.1-0+deb13u1/unbound_1.26.1-0+deb13u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5cfa6c981408a173490f851011f7151828a6626679ef78b1e4767ec55290e5dc
+    bytes   : 3,201
+
+debian  unbound                  1.26.1-0+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/unbound_1.26.1-0+deb13u1/unbound_1.26.1-0+deb13u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 22430ce4c5ab232b9530b1f7a0a21126a4ae745dfea7860c8a6b39c6851a86e4
+    bytes   : 32,356
+
+debian  unbound                  1.26.1-0+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/unbound_1.26.1-0+deb13u1/unbound_1.26.1.orig.tar.gz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : c52227c2a6918f991443c72709313fcd8530c41ea61268dbe820278a1c60a996
+    bytes   : 659
+
+debian  unbound                  1.26.1-0+deb13u1
+    licence : copyleft named in the copyright file
+    images  : be
+    file    : debian/unbound_1.26.1-0+deb13u1/unbound_1.26.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 35a6dc0e425a9282c3426d9a3043144011bf0534aed4b73ab62c52aee0af1503
+    bytes   : 6,948,585
+
 debian  usrmerge                 37~deb12u1
     licence : copyleft named in the copyright file
     images  : redis
@@ -7367,6 +9913,86 @@ debian  xorg                     1:7.7+24+deb13u1
     sha256  : 9774f8e48f9883d6ac7e907bc58c7f9b8e4899f8f16a0749d9e65951c0fbe9da
     bytes   : 2,002
 
+debian  xxhash                   0.8.1-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xxhash_0.8.1-1/xxhash_0.8.1-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4a961627c06efc8fa3bc4b06ee9dba6cfaf092f2550b88d63e9218a2728721b4
+    bytes   : 1,966
+
+debian  xxhash                   0.8.1-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xxhash_0.8.1-1/xxhash_0.8.1.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3bb6b7d6f30c591dd65aaaff1c8b7a5b94d81687998ca9400082c739a690436c
+    bytes   : 171,552
+
+debian  xxhash                   0.8.1-1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xxhash_0.8.1-1/xxhash_0.8.1-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : d40aa223e90b85435082857b64573541ba9a995841717496e8975aed97241550
+    bytes   : 4,572
+
+debian  xxhash                   0.8.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/xxhash_0.8.3-2/xxhash_0.8.3-2.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 9d1f7aaace7871fbdb8775d756c6eaca84e6ad5d8e9c6ac465b7e0adc06ff90c
+    bytes   : 1,969
+
+debian  xxhash                   0.8.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/xxhash_0.8.3-2/xxhash_0.8.3-2.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 13824bfb2b2367225dfe3090d0ae050614f1c470a47db7232a2e9d4b2b14ad31
+    bytes   : 5,144
+
+debian  xxhash                   0.8.3-2
+    licence : copyleft named in the copyright file
+    images  : be, db
+    file    : debian/xxhash_0.8.3-2/xxhash_0.8.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : aae608dfe8213dfd05d909a57718ef82f30722c392344583d3f39050c7f29a80
+    bytes   : 1,147,630
+
+debian  xz-utils                 5.4.1-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xz-utils_5.4.1-1+deb12u1/xz-utils_5.4.1.orig.tar.xz.asc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 4b0c7707114996092a5f75a98333de2102db83a27218e4903b8fb7c24a8d0233
+    bytes   : 833
+
+debian  xz-utils                 5.4.1-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xz-utils_5.4.1-1+deb12u1/xz-utils_5.4.1.orig.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 5d9827aa1875b21c288f78864bb26d2650b436ea8d2cad364e4921eb6266a5a5
+    bytes   : 1,485,272
+
+debian  xz-utils                 5.4.1-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xz-utils_5.4.1-1+deb12u1/xz-utils_5.4.1-1+deb12u1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 38f98e356f7e7e89b0920d39c55dd5f3d1a9f2684bff83c8b4890561e1832e94
+    bytes   : 2,515
+
+debian  xz-utils                 5.4.1-1+deb12u1
+    licence : copyleft named in the copyright file
+    images  : redis
+    file    : debian/xz-utils_5.4.1-1+deb12u1/xz-utils_5.4.1-1+deb12u1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 3e162db2b76480c7e157f4c2f6ff9a426fc023f262d4dc3287530b36e2843ebe
+    bytes   : 93,600
+
 debian  xz-utils                 5.8.1-1+deb13u1
     licence : copyleft named in the copyright file
     images  : db
@@ -7430,3 +10056,27 @@ debian  xz-utils                 5.8.1-1+deb13u2
     verified: sha1, against the publisher's own checksum
     sha256  : 0b54f79df85912504de0b14aec7971e3f964491af1812d83447005807513cd9e
     bytes   : 1,461,872
+
+debian  z3                       4.13.3-1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/z3_4.13.3-1/z3_4.13.3-1.dsc
+    verified: sha1, against the publisher's own checksum
+    sha256  : 503d4e990e0d6e2012d4ef97e31ff6a7dcd8b0ead582e58be07c84dc6b6d0df3
+    bytes   : 2,704
+
+debian  z3                       4.13.3-1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/z3_4.13.3-1/z3_4.13.3-1.debian.tar.xz
+    verified: sha1, against the publisher's own checksum
+    sha256  : 25a36c2b45e85b24620da6dec8fbb2095d41cbe1b03b27b5da007ff9c922e9ca
+    bytes   : 10,696
+
+debian  z3                       4.13.3-1
+    licence : copyleft named in the copyright file
+    images  : db
+    file    : debian/z3_4.13.3-1/z3_4.13.3.orig.tar.gz
+    verified: sha1, against the publisher's own checksum
+    sha256  : f59c9cf600ea57fb64ffeffbffd0f2d2b896854f339e846f48f069d23bc14ba0
+    bytes   : 5,583,533

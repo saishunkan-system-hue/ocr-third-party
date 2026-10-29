@@ -12,7 +12,7 @@ It holds **third-party source only**. None of the product's own source is here.
 
 Do not read one. Every archive here carries the licence its own author chose --
 GPL-2.0, GPL-3.0, LGPL-2.0, BSD, MIT, Apache-2.0 and many more across the
-1,420 files published under this tag. No file at the root of this repository grants
+1,782 files published under each tag. No file at the root of this repository grants
 you anything, and none purports to: whoever published this has no right to
 relicense other people's work, and has not tried to.
 
@@ -28,33 +28,22 @@ Open `compliance/THIRD-PARTY-NOTICES.txt` on the machine and read the
 this repository. Everything published under that tag is the corresponding
 source for that build, and nothing else is.
 
-This build: **`v1.2.0`**
-
-The two tags before it are still published and still valid for the machines
-they were delivered with. Read the `Delivered build` line rather than assuming
-the newest tag applies.
-
-* `v1.1.0` — machines whose "be" image is `node:24-trixie` and whose "fe" image
-  is `nginx:1.31.4-alpine`.
-* `v1.0.0` — machines whose "be" image was built on Debian 11 bullseye, with
-  poppler 20.09.0-3.1+deb11u3.
-
-This tag is for the build whose "be" image pins `node:24.22.1-trixie` and whose
-"fe" image moved to `nginx:1.31.7-alpine` on Alpine 3.24.2.
+This build: **`v1.1.0`**
 
 ## What is where
 
 | | |
 |---|---|
 | `components/` | poppler, FFmpeg, x264, x265 — the components shipped as binaries (section 3.1) |
+| `components/opencv-bundled/` | the LGPL/MPL libraries OpenCV bundles, with the Homebrew formulas and patches they were built from (section 3.1) |
 | `manifests/` | every archive named with the checksum it was verified against |
 | `licenses/` | the licence texts |
 | Release assets | the two large sets, listed below |
 
 The release attached to this tag carries:
 
-* `os-v1.2.0.tar` (1282 MB) — OS package source (section 3.2)
-* `meilisearch-v1.2.0.tar` (133 MB) — Meilisearch source and every crate in its lockfile (section 3.3)
+* `os-v1.1.0.tar` (1770 MB) — OS package source (section 3.2)
+* `meilisearch-v1.1.0.tar` (133 MB) — Meilisearch source and every crate in its lockfile (section 3.3)
 
 They are plain `.tar`; the files inside are already compressed.
 
