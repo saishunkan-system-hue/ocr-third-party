@@ -12,7 +12,7 @@ It holds **third-party source only**. None of the product's own source is here.
 
 Do not read one. Every archive here carries the licence its own author chose --
 GPL-2.0, GPL-3.0, LGPL-2.0, BSD, MIT, Apache-2.0 and many more across the
-1,782 files published under each tag. No file at the root of this repository grants
+1,784 files published under each tag. No file at the root of this repository grants
 you anything, and none purports to: whoever published this has no right to
 relicense other people's work, and has not tried to.
 
@@ -28,7 +28,7 @@ Open `compliance/THIRD-PARTY-NOTICES.txt` on the machine and read the
 this repository. Everything published under that tag is the corresponding
 source for that build, and nothing else is.
 
-This build: **`v1.1.0`**
+This build: **`v1.1.1`**
 
 ## What is where
 
@@ -42,8 +42,8 @@ This build: **`v1.1.0`**
 
 The release attached to this tag carries:
 
-* `os-v1.1.0.tar` (1770 MB) — OS package source (section 3.2)
-* `meilisearch-v1.1.0.tar` (133 MB) — Meilisearch source and every crate in its lockfile (section 3.3)
+* `os-v1.1.1.tar` (1772 MB) — OS package source (section 3.2)
+* `meilisearch-v1.1.1.tar` (133 MB) — Meilisearch source and every crate in its lockfile (section 3.3)
 
 They are plain `.tar`; the files inside are already compressed.
 
